@@ -1,0 +1,1563 @@
+    INFO: 2025-11-24 20:15:28,413:               log.py:   20: Logging to /workspaces/Measai-Maestro/projects/meet-mike/mdpdf.log
+   DEBUG: 2025-11-24 20:15:28,413:               cli.py:  103: /workspaces/Measai-Maestro/projects/meet-mike/brainstorming/section-4-eidolon-services/synthesis.md
+    INFO: 2025-11-24 20:15:28,414:         converter.py:   14: /workspaces/Measai-Maestro/projects/meet-mike/brainstorming/section-4-eidolon-services/synthesis.md
+   DEBUG: 2025-11-24 20:15:28,429:      pdf_renderer.py:  470: printSegment: Meet Mike Section 4: Eidolon Service Offerings - SYNTHESIS
+   DEBUG: 2025-11-24 20:15:28,431:      pdf_renderer.py:  470: printSegment: Section:
+   DEBUG: 2025-11-24 20:15:28,433:      pdf_renderer.py:  470: printSegment:  4 of 6
+   DEBUG: 2025-11-24 20:15:28,435:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,437:      pdf_renderer.py:  470: printSegment: Synthesis Date:
+   DEBUG: 2025-11-24 20:15:28,439:      pdf_renderer.py:  470: printSegment:  2025-11-21
+   DEBUG: 2025-11-24 20:15:28,440:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,441:      pdf_renderer.py:  470: printSegment: Status:
+   DEBUG: 2025-11-24 20:15:28,443:      pdf_renderer.py:  470: printSegment:  PRELIMINARY (Awaiting team inputs)
+   DEBUG: 2025-11-24 20:15:28,444:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,444:      pdf_renderer.py:  470: printSegment: For:
+   DEBUG: 2025-11-24 20:15:28,445:      pdf_renderer.py:  470: printSegment:  Janus
+   DEBUG: 2025-11-24 20:15:28,447:      pdf_renderer.py:  470: printSegment: Presentation (Nov 21, 2025)
+   DEBUG: 2025-11-24 20:15:28,448:      pdf_renderer.py:  470: printSegment: Team Inputs:
+   DEBUG: 2025-11-24 20:15:28,449:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,450:      pdf_renderer.py:  470: printSegment: ⏳ 
+   DEBUG: 2025-11-24 20:15:28,463:      pdf_renderer.py:  470: printSegment: Gemini (Strategic Product Positioning):
+   DEBUG: 2025-11-24 20:15:28,464:      pdf_renderer.py:  470: printSegment:  PENDING - sig
+   DEBUG: 2025-11-24 20:15:28,464:      pdf_renderer.py:  470: printSegment: _
+   DEBUG: 2025-11-24 20:15:28,465:      pdf_renderer.py:  470: printSegment: d84f1584 sent 08:23 UTC
+   DEBUG: 2025-11-24 20:15:28,465:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,465:      pdf_renderer.py:  470: printSegment: ⏳ 
+   DEBUG: 2025-11-24 20:15:28,466:      pdf_renderer.py:  470: printSegment: Copilot (Practical Service Delivery):
+   DEBUG: 2025-11-24 20:15:28,466:      pdf_renderer.py:  470: printSegment:  PENDING - sig
+   DEBUG: 2025-11-24 20:15:28,467:      pdf_renderer.py:  470: printSegment: _
+   DEBUG: 2025-11-24 20:15:28,467:      pdf_renderer.py:  470: printSegment: a16dbd4f sent 08:24 UTC
+   DEBUG: 2025-11-24 20:15:28,469:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,469:      pdf_renderer.py:  470: printSegment: ⏳ 
+   DEBUG: 2025-11-24 20:15:28,470:      pdf_renderer.py:  470: printSegment: Codex (Technical Architecture):
+   DEBUG: 2025-11-24 20:15:28,470:      pdf_renderer.py:  470: printSegment:  OPTIONAL - sig
+   DEBUG: 2025-11-24 20:15:28,470:      pdf_renderer.py:  470: printSegment: _
+   DEBUG: 2025-11-24 20:15:28,471:      pdf_renderer.py:  470: printSegment: 7080e1a5 sent 08:25 UTC
+   DEBUG: 2025-11-24 20:15:28,471:      pdf_renderer.py:  470: printSegment: EXECUTIVE SUMMARY
+   DEBUG: 2025-11-24 20:15:28,472:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,472:      pdf_renderer.py:  470: printSegment: To be completed when team inputs received
+   DEBUG: 2025-11-24 20:15:28,473:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,473:      pdf_renderer.py:  470: printSegment: Key Recommendations:
+   DEBUG: 2025-11-24 20:15:28,474:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:28,474:      pdf_renderer.py:  470: printSegment: TBD
+   DEBUG: 2025-11-24 20:15:28,474:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:28,475:      pdf_renderer.py:  470: printSegment: TBD
+   DEBUG: 2025-11-24 20:15:28,475:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:28,475:      pdf_renderer.py:  470: printSegment: TBD
+   DEBUG: 2025-11-24 20:15:28,476:      pdf_renderer.py:  470: printSegment: Critical Decisions Needed:
+   DEBUG: 2025-11-24 20:15:28,476:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,477:      pdf_renderer.py:  470: printSegment: TBD
+   DEBUG: 2025-11-24 20:15:28,477:      pdf_renderer.py:  470: printSegment: Major Risks/Concerns:
+   DEBUG: 2025-11-24 20:15:28,477:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,478:      pdf_renderer.py:  470: printSegment: TBD
+   DEBUG: 2025-11-24 20:15:28,479:      pdf_renderer.py:  470: printSegment: 1. THE 4 EIDOLONS: OVERVIEW
+   DEBUG: 2025-11-24 20:15:28,479:      pdf_renderer.py:  470: printSegment: Context
+   DEBUG: 2025-11-24 20:15:28,479:      pdf_renderer.py:  470: printSegment: Meet Mike offers AI Digital Coworkers (
+   DEBUG: 2025-11-24 20:15:28,480:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:28,480:      pdf_renderer.py:  470: printSegment: Eidolons
+   DEBUG: 2025-11-24 20:15:28,481:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:28,481:      pdf_renderer.py:  470: printSegment: ) powered by Measai Orchestra infrastructure:
+   DEBUG: 2025-11-24 20:15:28,482:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:28,482:      pdf_renderer.py:  470: printSegment: FinBot
+   DEBUG: 2025-11-24 20:15:28,482:      pdf_renderer.py:  470: printSegment:  - Financial strategy 
+   DEBUG: 2025-11-24 20:15:28,483:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,483:      pdf_renderer.py:  470: printSegment:  analysis (Led by Janus)
+   DEBUG: 2025-11-24 20:15:28,484:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:28,484:      pdf_renderer.py:  470: printSegment: BrandBot
+   DEBUG: 2025-11-24 20:15:28,484:      pdf_renderer.py:  470: printSegment:  - Marketing 
+   DEBUG: 2025-11-24 20:15:28,485:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,485:      pdf_renderer.py:  470: printSegment:  positioning
+   DEBUG: 2025-11-24 20:15:28,486:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:28,486:      pdf_renderer.py:  470: printSegment: LeadGen AI
+   DEBUG: 2025-11-24 20:15:28,487:      pdf_renderer.py:  470: printSegment:  - Sales pipeline 
+   DEBUG: 2025-11-24 20:15:28,487:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,487:      pdf_renderer.py:  470: printSegment:  qualification
+   DEBUG: 2025-11-24 20:15:28,488:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2025-11-24 20:15:28,488:      pdf_renderer.py:  470: printSegment: SupportBot
+   DEBUG: 2025-11-24 20:15:28,489:      pdf_renderer.py:  470: printSegment:  - Customer success 
+   DEBUG: 2025-11-24 20:15:28,489:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,490:      pdf_renderer.py:  470: printSegment:  technical support
+   DEBUG: 2025-11-24 20:15:28,490:      pdf_renderer.py:  470: printSegment: Each Eidolon leverages multi-AI collaboration (Claude, Gemini, Codex, Copilot working together).
+   DEBUG: 2025-11-24 20:15:28,491:      pdf_renderer.py:  470: printSegment: Strategic Question
+   DEBUG: 2025-11-24 20:15:28,491:      pdf_renderer.py:  470: printSegment: Launch Strategy:
+   DEBUG: 2025-11-24 20:15:28,492:      pdf_renderer.py:  470: printSegment:  All 4 Eidolons simultaneously or start with 1-2?
+   DEBUG: 2025-11-24 20:15:28,493:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,493:      pdf_renderer.py:  470: printSegment: Awaiting Gemini
+   DEBUG: 2025-11-24 20:15:28,493:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:28,494:      pdf_renderer.py:  470: printSegment: s strategic recommendation
+   DEBUG: 2025-11-24 20:15:28,494:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,495:      pdf_renderer.py:  470: printSegment: 2. FINBOT: FINANCIAL STRATEGY 
+   DEBUG: 2025-11-24 20:15:28,496:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,496:      pdf_renderer.py:  470: printSegment:  ANALYSIS
+   DEBUG: 2025-11-24 20:15:28,496:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,497:      pdf_renderer.py:  470: printSegment: Awaiting Gemini strategic + Copilot practical + Codex technical inputs
+   DEBUG: 2025-11-24 20:15:28,498:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,498:      pdf_renderer.py:  470: printSegment: Value Proposition
+   DEBUG: 2025-11-24 20:15:28,499:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,499:      pdf_renderer.py:  470: printSegment: Target Customer:
+   DEBUG: 2025-11-24 20:15:28,500:      pdf_renderer.py:  470: printSegment:  Series A-B startup founders, CFOs
+   DEBUG: 2025-11-24 20:15:28,500:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,501:      pdf_renderer.py:  470: printSegment: Pain Points Addressed:
+   DEBUG: 2025-11-24 20:15:28,501:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,501:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,502:      pdf_renderer.py:  470: printSegment: Key Deliverables:
+   DEBUG: 2025-11-24 20:15:28,502:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,502:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,503:      pdf_renderer.py:  470: printSegment: Competitive Alternatives:
+   DEBUG: 2025-11-24 20:15:28,503:      pdf_renderer.py:  470: printSegment:  Fractional CFO ($5-10K/month), Full-time hire ($10-20K/month), DIY
+   DEBUG: 2025-11-24 20:15:28,504:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,504:      pdf_renderer.py:  470: printSegment: AI Advantage:
+   DEBUG: 2025-11-24 20:15:28,505:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,505:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,505:      pdf_renderer.py:  470: printSegment: Success Metrics:
+   DEBUG: 2025-11-24 20:15:28,506:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,507:      pdf_renderer.py:  470: printSegment: Service Catalog (Website-Ready)
+   DEBUG: 2025-11-24 20:15:28,507:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,507:      pdf_renderer.py:  470: printSegment: Tagline:
+   DEBUG: 2025-11-24 20:15:28,508:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,509:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,509:      pdf_renderer.py:  470: printSegment: Description:
+   DEBUG: 2025-11-24 20:15:28,510:      pdf_renderer.py:  470: printSegment:  TBD (2-3 paragraphs)
+   DEBUG: 2025-11-24 20:15:28,511:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,512:      pdf_renderer.py:  470: printSegment: Key Capabilities:
+   DEBUG: 2025-11-24 20:15:28,513:      pdf_renderer.py:  470: printSegment:  TBD (bulleted list)
+   DEBUG: 2025-11-24 20:15:28,514:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,515:      pdf_renderer.py:  470: printSegment: Typical Deliverables:
+   DEBUG: 2025-11-24 20:15:28,515:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,516:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,517:      pdf_renderer.py:  470: printSegment: Integration Requirements:
+   DEBUG: 2025-11-24 20:15:28,517:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,518:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,519:      pdf_renderer.py:  470: printSegment: Xero / QuickBooks (accounting)
+   DEBUG: 2025-11-24 20:15:28,519:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,521:      pdf_renderer.py:  470: printSegment: Stripe (payments)
+   DEBUG: 2025-11-24 20:15:28,521:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,522:      pdf_renderer.py:  470: printSegment: Banking APIs (Plaid, Tink)
+   DEBUG: 2025-11-24 20:15:28,523:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,524:      pdf_renderer.py:  470: printSegment: Google Sheets (collaborative models)
+   DEBUG: 2025-11-24 20:15:28,525:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,526:      pdf_renderer.py:  470: printSegment: Slack/Teams (notifications)
+   DEBUG: 2025-11-24 20:15:28,527:      pdf_renderer.py:  470: printSegment: Pricing
+   DEBUG: 2025-11-24 20:15:28,528:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,528:      pdf_renderer.py:  470: printSegment: Base Price:
+   DEBUG: 2025-11-24 20:15:28,529:      pdf_renderer.py:  470: printSegment:  $2,000/month (
+   DEBUG: 2025-11-24 20:15:28,530:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:28,530:      pdf_renderer.py:  470: printSegment: A Benjamin a Day
+   DEBUG: 2025-11-24 20:15:28,531:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:28,531:      pdf_renderer.py:  470: printSegment: )
+   DEBUG: 2025-11-24 20:15:28,532:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,532:      pdf_renderer.py:  470: printSegment: Customization Premium:
+   DEBUG: 2025-11-24 20:15:28,533:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,534:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,535:      pdf_renderer.py:  470: printSegment: Bundle Discount:
+   DEBUG: 2025-11-24 20:15:28,536:      pdf_renderer.py:  470: printSegment:  TBD (with other Eidolons)
+   DEBUG: 2025-11-24 20:15:28,537:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,538:      pdf_renderer.py:  470: printSegment: Value Comparison:
+   DEBUG: 2025-11-24 20:15:28,539:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,540:      pdf_renderer.py:  470: printSegment: vs. Fractional CFO ($5-10K/mo): 60-80% savings
+   DEBUG: 2025-11-24 20:15:28,542:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,543:      pdf_renderer.py:  470: printSegment: vs. Full-time CFO ($120-240K/year): 90% savings
+   DEBUG: 2025-11-24 20:15:28,544:      pdf_renderer.py:  470: printSegment: Onboarding Workflow
+   DEBUG: 2025-11-24 20:15:28,545:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,546:      pdf_renderer.py:  470: printSegment: Week 1:
+   DEBUG: 2025-11-24 20:15:28,547:      pdf_renderer.py:  470: printSegment:  Discovery 
+   DEBUG: 2025-11-24 20:15:28,547:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,547:      pdf_renderer.py:  470: printSegment:  Setup - TBD
+   DEBUG: 2025-11-24 20:15:28,548:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,548:      pdf_renderer.py:  470: printSegment: Week 2-4:
+   DEBUG: 2025-11-24 20:15:28,549:      pdf_renderer.py:  470: printSegment:  Training 
+   DEBUG: 2025-11-24 20:15:28,550:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,551:      pdf_renderer.py:  470: printSegment:  Initial Delivery - TBD
+   DEBUG: 2025-11-24 20:15:28,552:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,553:      pdf_renderer.py:  470: printSegment: Week 5-8:
+   DEBUG: 2025-11-24 20:15:28,554:      pdf_renderer.py:  470: printSegment:  Supervised Operation - TBD
+   DEBUG: 2025-11-24 20:15:28,555:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,556:      pdf_renderer.py:  470: printSegment: Week 9+:
+   DEBUG: 2025-11-24 20:15:28,558:      pdf_renderer.py:  470: printSegment:  Autonomous Operation - TBD
+   DEBUG: 2025-11-24 20:15:28,559:      pdf_renderer.py:  470: printSegment: Performance Reporting
+   DEBUG: 2025-11-24 20:15:28,560:      pdf_renderer.py:  470: printSegment: Monthly Report Template:
+   DEBUG: 2025-11-24 20:15:28,561:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,561:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,563:      pdf_renderer.py:  470: printSegment: Financial Health Score
+   DEBUG: 2025-11-24 20:15:28,563:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,565:      pdf_renderer.py:  470: printSegment: Key Metrics (runway, burn rate, MRR growth, unit economics)
+   DEBUG: 2025-11-24 20:15:28,566:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,566:      pdf_renderer.py:  470: printSegment: Deliverables completed
+   DEBUG: 2025-11-24 20:15:28,567:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,569:      pdf_renderer.py:  470: printSegment: Insights 
+   DEBUG: 2025-11-24 20:15:28,569:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,571:      pdf_renderer.py:  470: printSegment:  Recommendations
+   DEBUG: 2025-11-24 20:15:28,572:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,573:      pdf_renderer.py:  470: printSegment: Time/cost savings quantified
+   DEBUG: 2025-11-24 20:15:28,574:      pdf_renderer.py:  470: printSegment: Technical Architecture
+   DEBUG: 2025-11-24 20:15:28,575:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,577:      pdf_renderer.py:  470: printSegment: Awaiting Codex technical analysis
+   DEBUG: 2025-11-24 20:15:28,577:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,578:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,579:      pdf_renderer.py:  470: printSegment: Eidolon instance design: TBD
+   DEBUG: 2025-11-24 20:15:28,579:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,580:      pdf_renderer.py:  470: printSegment: Data isolation approach: TBD
+   DEBUG: 2025-11-24 20:15:28,580:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,581:      pdf_renderer.py:  470: printSegment: Integration implementation: TBD
+   DEBUG: 2025-11-24 20:15:28,581:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,581:      pdf_renderer.py:  470: printSegment: Security 
+   DEBUG: 2025-11-24 20:15:28,582:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,582:      pdf_renderer.py:  470: printSegment:  compliance: TBD (especially critical for financial data)
+   DEBUG: 2025-11-24 20:15:28,583:      pdf_renderer.py:  470: printSegment: 3. BRANDBOT: MARKETING 
+   DEBUG: 2025-11-24 20:15:28,584:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,584:      pdf_renderer.py:  470: printSegment:  POSITIONING
+   DEBUG: 2025-11-24 20:15:28,584:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,585:      pdf_renderer.py:  470: printSegment: Awaiting Gemini strategic + Copilot practical + Codex technical inputs
+   DEBUG: 2025-11-24 20:15:28,585:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,586:      pdf_renderer.py:  470: printSegment: Value Proposition
+   DEBUG: 2025-11-24 20:15:28,586:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,586:      pdf_renderer.py:  470: printSegment: Target Customer:
+   DEBUG: 2025-11-24 20:15:28,587:      pdf_renderer.py:  470: printSegment:  Founders, CMOs, Marketing Leads
+   DEBUG: 2025-11-24 20:15:28,587:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,588:      pdf_renderer.py:  470: printSegment: Pain Points Addressed:
+   DEBUG: 2025-11-24 20:15:28,588:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,588:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,589:      pdf_renderer.py:  470: printSegment: Key Deliverables:
+   DEBUG: 2025-11-24 20:15:28,591:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,592:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,592:      pdf_renderer.py:  470: printSegment: Competitive Alternatives:
+   DEBUG: 2025-11-24 20:15:28,593:      pdf_renderer.py:  470: printSegment:  Marketing agency ($3-10K/month), Freelance consultant ($2-5K/mo),
+   DEBUG: 2025-11-24 20:15:28,594:      pdf_renderer.py:  470: printSegment: DIY
+   DEBUG: 2025-11-24 20:15:28,594:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,594:      pdf_renderer.py:  470: printSegment: AI Advantage:
+   DEBUG: 2025-11-24 20:15:28,596:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,597:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,597:      pdf_renderer.py:  470: printSegment: Success Metrics:
+   DEBUG: 2025-11-24 20:15:28,599:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,601:      pdf_renderer.py:  470: printSegment: Service Catalog (Website-Ready)
+   DEBUG: 2025-11-24 20:15:28,603:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,604:      pdf_renderer.py:  470: printSegment: Tagline:
+   DEBUG: 2025-11-24 20:15:28,604:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,606:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,607:      pdf_renderer.py:  470: printSegment: Description:
+   DEBUG: 2025-11-24 20:15:28,608:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,609:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,610:      pdf_renderer.py:  470: printSegment: Key Capabilities:
+   DEBUG: 2025-11-24 20:15:28,611:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,611:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,612:      pdf_renderer.py:  470: printSegment: Brand identity development?
+   DEBUG: 2025-11-24 20:15:28,613:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,615:      pdf_renderer.py:  470: printSegment: Content strategy?
+   DEBUG: 2025-11-24 20:15:28,616:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,617:      pdf_renderer.py:  470: printSegment: Messaging frameworks?
+   DEBUG: 2025-11-24 20:15:28,617:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,619:      pdf_renderer.py:  470: printSegment: Competitive positioning?
+   DEBUG: 2025-11-24 20:15:28,620:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,621:      pdf_renderer.py:  470: printSegment: Social media strategy?
+   DEBUG: 2025-11-24 20:15:28,622:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,623:      pdf_renderer.py:  470: printSegment: Typical Deliverables:
+   DEBUG: 2025-11-24 20:15:28,624:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,625:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,628:      pdf_renderer.py:  470: printSegment: Integration Requirements:
+   DEBUG: 2025-11-24 20:15:28,629:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,630:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,632:      pdf_renderer.py:  470: printSegment: Social media APIs (LinkedIn, Twitter/X)
+   DEBUG: 2025-11-24 20:15:28,633:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,634:      pdf_renderer.py:  470: printSegment: Analytics (Google Analytics, Mixpanel)
+   DEBUG: 2025-11-24 20:15:28,635:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,636:      pdf_renderer.py:  470: printSegment: CMS (WordPress, Webflow)
+   DEBUG: 2025-11-24 20:15:28,637:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,638:      pdf_renderer.py:  470: printSegment: Design tools (Figma, Canva)
+   DEBUG: 2025-11-24 20:15:28,639:      pdf_renderer.py:  470: printSegment: Pricing 
+   DEBUG: 2025-11-24 20:15:28,641:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,642:      pdf_renderer.py:  470: printSegment:  Onboarding
+   DEBUG: 2025-11-24 20:15:28,643:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,644:      pdf_renderer.py:  470: printSegment: Details:
+   DEBUG: 2025-11-24 20:15:28,645:      pdf_renderer.py:  470: printSegment:  TBD (similar structure to FinBot)
+   DEBUG: 2025-11-24 20:15:28,646:      pdf_renderer.py:  470: printSegment: Performance Reporting
+   DEBUG: 2025-11-24 20:15:28,647:      pdf_renderer.py:  470: printSegment: Monthly Report Template:
+   DEBUG: 2025-11-24 20:15:28,648:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,649:      pdf_renderer.py:  470: printSegment: Technical Architecture
+   DEBUG: 2025-11-24 20:15:28,650:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,651:      pdf_renderer.py:  470: printSegment: Awaiting Codex analysis
+   DEBUG: 2025-11-24 20:15:28,652:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,653:      pdf_renderer.py:  470: printSegment: 4. LEADGEN AI: SALES PIPELINE 
+   DEBUG: 2025-11-24 20:15:28,654:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,654:      pdf_renderer.py:  470: printSegment:  QUALIFICATION
+   DEBUG: 2025-11-24 20:15:28,655:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,655:      pdf_renderer.py:  470: printSegment: Awaiting Gemini strategic + Copilot practical + Codex technical inputs
+   DEBUG: 2025-11-24 20:15:28,656:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,656:      pdf_renderer.py:  470: printSegment: Value Proposition
+   DEBUG: 2025-11-24 20:15:28,656:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,657:      pdf_renderer.py:  470: printSegment: Target Customer:
+   DEBUG: 2025-11-24 20:15:28,657:      pdf_renderer.py:  470: printSegment:  Founders, VP Sales, Sales Ops
+   DEBUG: 2025-11-24 20:15:28,658:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,658:      pdf_renderer.py:  470: printSegment: Pain Points Addressed:
+   DEBUG: 2025-11-24 20:15:28,659:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,659:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,659:      pdf_renderer.py:  470: printSegment: Key Deliverables:
+   DEBUG: 2025-11-24 20:15:28,660:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,660:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,660:      pdf_renderer.py:  470: printSegment: Competitive Alternatives:
+   DEBUG: 2025-11-24 20:15:28,661:      pdf_renderer.py:  470: printSegment:  SDR hire ($4-8K/month), Lead gen agency ($2-5K/mo), Manual
+   DEBUG: 2025-11-24 20:15:28,662:      pdf_renderer.py:  470: printSegment: prospecting
+   DEBUG: 2025-11-24 20:15:28,662:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,662:      pdf_renderer.py:  470: printSegment: AI Advantage:
+   DEBUG: 2025-11-24 20:15:28,663:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,663:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,663:      pdf_renderer.py:  470: printSegment: Success Metrics:
+   DEBUG: 2025-11-24 20:15:28,664:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,664:      pdf_renderer.py:  470: printSegment: Service Catalog (Website-Ready)
+   DEBUG: 2025-11-24 20:15:28,664:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,665:      pdf_renderer.py:  470: printSegment: Tagline:
+   DEBUG: 2025-11-24 20:15:28,665:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,665:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,666:      pdf_renderer.py:  470: printSegment: Description:
+   DEBUG: 2025-11-24 20:15:28,666:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,666:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,667:      pdf_renderer.py:  470: printSegment: Key Capabilities:
+   DEBUG: 2025-11-24 20:15:28,667:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,668:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,669:      pdf_renderer.py:  470: printSegment: Prospect identification 
+   DEBUG: 2025-11-24 20:15:28,670:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,671:      pdf_renderer.py:  470: printSegment:  list building?
+   DEBUG: 2025-11-24 20:15:28,672:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,673:      pdf_renderer.py:  470: printSegment: Lead qualification 
+   DEBUG: 2025-11-24 20:15:28,674:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,675:      pdf_renderer.py:  470: printSegment:  scoring?
+   DEBUG: 2025-11-24 20:15:28,676:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,677:      pdf_renderer.py:  470: printSegment: Personalized outreach?
+   DEBUG: 2025-11-24 20:15:28,678:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,679:      pdf_renderer.py:  470: printSegment: Sales pipeline management?
+   DEBUG: 2025-11-24 20:15:28,679:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,680:      pdf_renderer.py:  470: printSegment: Follow-up automation?
+   DEBUG: 2025-11-24 20:15:28,680:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,680:      pdf_renderer.py:  470: printSegment: Typical Deliverables:
+   DEBUG: 2025-11-24 20:15:28,681:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,681:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,682:      pdf_renderer.py:  470: printSegment: Integration Requirements:
+   DEBUG: 2025-11-24 20:15:28,682:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,683:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,683:      pdf_renderer.py:  470: printSegment: CRM (HubSpot, Pipedrive, Salesforce)
+   DEBUG: 2025-11-24 20:15:28,684:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,684:      pdf_renderer.py:  470: printSegment: LinkedIn Sales Navigator
+   DEBUG: 2025-11-24 20:15:28,684:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,685:      pdf_renderer.py:  470: printSegment: Email (Gmail, Outlook, SendGrid)
+   DEBUG: 2025-11-24 20:15:28,685:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,686:      pdf_renderer.py:  470: printSegment: Calendly (booking automation)
+   DEBUG: 2025-11-24 20:15:28,686:      pdf_renderer.py:  470: printSegment: Pricing 
+   DEBUG: 2025-11-24 20:15:28,687:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,687:      pdf_renderer.py:  470: printSegment:  Onboarding
+   DEBUG: 2025-11-24 20:15:28,688:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,688:      pdf_renderer.py:  470: printSegment: Details:
+   DEBUG: 2025-11-24 20:15:28,688:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,689:      pdf_renderer.py:  470: printSegment: Performance Reporting
+   DEBUG: 2025-11-24 20:15:28,689:      pdf_renderer.py:  470: printSegment: Monthly Report Template:
+   DEBUG: 2025-11-24 20:15:28,690:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,690:      pdf_renderer.py:  470: printSegment: Technical Architecture
+   DEBUG: 2025-11-24 20:15:28,691:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,691:      pdf_renderer.py:  470: printSegment: Awaiting Codex analysis
+   DEBUG: 2025-11-24 20:15:28,691:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,692:      pdf_renderer.py:  470: printSegment: 5. SUPPORTBOT: CUSTOMER SUCCESS 
+   DEBUG: 2025-11-24 20:15:28,693:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,693:      pdf_renderer.py:  470: printSegment:  SUPPORT
+   DEBUG: 2025-11-24 20:15:28,693:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,694:      pdf_renderer.py:  470: printSegment: Awaiting Gemini strategic + Copilot practical + Codex technical inputs
+   DEBUG: 2025-11-24 20:15:28,695:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,695:      pdf_renderer.py:  470: printSegment: Value Proposition
+   DEBUG: 2025-11-24 20:15:28,696:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,696:      pdf_renderer.py:  470: printSegment: Target Customer:
+   DEBUG: 2025-11-24 20:15:28,697:      pdf_renderer.py:  470: printSegment:  Customer Success Leads, Support Managers
+   DEBUG: 2025-11-24 20:15:28,697:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,698:      pdf_renderer.py:  470: printSegment: Pain Points Addressed:
+   DEBUG: 2025-11-24 20:15:28,698:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,698:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,699:      pdf_renderer.py:  470: printSegment: Key Deliverables:
+   DEBUG: 2025-11-24 20:15:28,699:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,699:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,700:      pdf_renderer.py:  470: printSegment: Competitive Alternatives:
+   DEBUG: 2025-11-24 20:15:28,701:      pdf_renderer.py:  470: printSegment:  Support team hire ($3-6K/month per agent), Help desk software
+   DEBUG: 2025-11-24 20:15:28,701:      pdf_renderer.py:  470: printSegment: ($50-500/mo), Manual support
+   DEBUG: 2025-11-24 20:15:28,701:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,702:      pdf_renderer.py:  470: printSegment: AI Advantage:
+   DEBUG: 2025-11-24 20:15:28,702:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,702:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,703:      pdf_renderer.py:  470: printSegment: Success Metrics:
+   DEBUG: 2025-11-24 20:15:28,703:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,704:      pdf_renderer.py:  470: printSegment: Service Catalog (Website-Ready)
+   DEBUG: 2025-11-24 20:15:28,704:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,704:      pdf_renderer.py:  470: printSegment: Tagline:
+   DEBUG: 2025-11-24 20:15:28,705:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,705:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,705:      pdf_renderer.py:  470: printSegment: Description:
+   DEBUG: 2025-11-24 20:15:28,706:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,706:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,706:      pdf_renderer.py:  470: printSegment: Key Capabilities:
+   DEBUG: 2025-11-24 20:15:28,707:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,707:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,707:      pdf_renderer.py:  470: printSegment: 24/7 customer support?
+   DEBUG: 2025-11-24 20:15:28,708:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,708:      pdf_renderer.py:  470: printSegment: Technical documentation?
+   DEBUG: 2025-11-24 20:15:28,708:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,709:      pdf_renderer.py:  470: printSegment: Onboarding assistance?
+   DEBUG: 2025-11-24 20:15:28,709:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,710:      pdf_renderer.py:  470: printSegment: Knowledge base automation?
+   DEBUG: 2025-11-24 20:15:28,710:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,710:      pdf_renderer.py:  470: printSegment: Ticket triage 
+   DEBUG: 2025-11-24 20:15:28,711:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,711:      pdf_renderer.py:  470: printSegment:  routing?
+   DEBUG: 2025-11-24 20:15:28,711:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,712:      pdf_renderer.py:  470: printSegment: Typical Deliverables:
+   DEBUG: 2025-11-24 20:15:28,712:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,713:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,713:      pdf_renderer.py:  470: printSegment: Integration Requirements:
+   DEBUG: 2025-11-24 20:15:28,714:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,714:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,714:      pdf_renderer.py:  470: printSegment: Help desk (Zendesk, Intercom, Freshdesk)
+   DEBUG: 2025-11-24 20:15:28,715:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,715:      pdf_renderer.py:  470: printSegment: Knowledge bases (Notion, Confluence)
+   DEBUG: 2025-11-24 20:15:28,716:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,716:      pdf_renderer.py:  470: printSegment: Chat platforms (Slack, Teams, Discord)
+   DEBUG: 2025-11-24 20:15:28,717:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,717:      pdf_renderer.py:  470: printSegment: Ticketing systems
+   DEBUG: 2025-11-24 20:15:28,718:      pdf_renderer.py:  470: printSegment: Pricing 
+   DEBUG: 2025-11-24 20:15:28,718:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,718:      pdf_renderer.py:  470: printSegment:  Onboarding
+   DEBUG: 2025-11-24 20:15:28,719:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,719:      pdf_renderer.py:  470: printSegment: Details:
+   DEBUG: 2025-11-24 20:15:28,720:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,720:      pdf_renderer.py:  470: printSegment: Performance Reporting
+   DEBUG: 2025-11-24 20:15:28,721:      pdf_renderer.py:  470: printSegment: Monthly Report Template:
+   DEBUG: 2025-11-24 20:15:28,721:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,721:      pdf_renderer.py:  470: printSegment: Technical Architecture
+   DEBUG: 2025-11-24 20:15:28,722:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,722:      pdf_renderer.py:  470: printSegment: Awaiting Codex analysis
+   DEBUG: 2025-11-24 20:15:28,723:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,723:      pdf_renderer.py:  470: printSegment: 6. BUYER SEGMENTATION 
+   DEBUG: 2025-11-24 20:15:28,724:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,724:      pdf_renderer.py:  470: printSegment:  POSITIONING
+   DEBUG: 2025-11-24 20:15:28,725:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,725:      pdf_renderer.py:  470: printSegment: Awaiting Gemini
+   DEBUG: 2025-11-24 20:15:28,725:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:28,726:      pdf_renderer.py:  470: printSegment: s strategic analysis
+   DEBUG: 2025-11-24 20:15:28,726:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,726:      pdf_renderer.py:  470: printSegment: By Persona
+   DEBUG: 2025-11-24 20:15:28,727:      pdf_renderer.py:  470: printSegment: Founder/CEO:
+   DEBUG: 2025-11-24 20:15:28,727:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,728:      pdf_renderer.py:  470: printSegment: Primary pain point: TBD
+   DEBUG: 2025-11-24 20:15:28,728:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,729:      pdf_renderer.py:  470: printSegment: Lead Eidolon: TBD (FinBot? Universal entry point?)
+   DEBUG: 2025-11-24 20:15:28,729:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,730:      pdf_renderer.py:  470: printSegment: Value proposition: TBD
+   DEBUG: 2025-11-24 20:15:28,730:      pdf_renderer.py:  470: printSegment: CFO:
+   DEBUG: 2025-11-24 20:15:28,731:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,732:      pdf_renderer.py:  470: printSegment: Primary pain point: Financial strategy, investor reporting
+   DEBUG: 2025-11-24 20:15:28,733:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,733:      pdf_renderer.py:  470: printSegment: Lead Eidolon: FinBot (obvious fit)
+   DEBUG: 2025-11-24 20:15:28,734:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,735:      pdf_renderer.py:  470: printSegment: Value proposition: TBD
+   DEBUG: 2025-11-24 20:15:28,735:      pdf_renderer.py:  470: printSegment: CMO/Marketing Lead:
+   DEBUG: 2025-11-24 20:15:28,736:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,736:      pdf_renderer.py:  470: printSegment: Primary pain point: TBD
+   DEBUG: 2025-11-24 20:15:28,736:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,737:      pdf_renderer.py:  470: printSegment: Lead Eidolon: BrandBot
+   DEBUG: 2025-11-24 20:15:28,737:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,737:      pdf_renderer.py:  470: printSegment: Value proposition: TBD
+   DEBUG: 2025-11-24 20:15:28,738:      pdf_renderer.py:  470: printSegment: VP Sales:
+   DEBUG: 2025-11-24 20:15:28,738:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,738:      pdf_renderer.py:  470: printSegment: Primary pain point: TBD
+   DEBUG: 2025-11-24 20:15:28,739:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,739:      pdf_renderer.py:  470: printSegment: Lead Eidolon: LeadGen AI
+   DEBUG: 2025-11-24 20:15:28,739:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,740:      pdf_renderer.py:  470: printSegment: Value proposition: TBD
+   DEBUG: 2025-11-24 20:15:28,740:      pdf_renderer.py:  470: printSegment: Customer Success Lead:
+   DEBUG: 2025-11-24 20:15:28,741:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,741:      pdf_renderer.py:  470: printSegment: Primary pain point: TBD
+   DEBUG: 2025-11-24 20:15:28,741:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,742:      pdf_renderer.py:  470: printSegment: Lead Eidolon: SupportBot
+   DEBUG: 2025-11-24 20:15:28,742:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,743:      pdf_renderer.py:  470: printSegment: Value proposition: TBD
+   DEBUG: 2025-11-24 20:15:28,743:      pdf_renderer.py:  470: printSegment: Go-to-Market Implications
+   DEBUG: 2025-11-24 20:15:28,744:      pdf_renderer.py:  470: printSegment: Questions:
+   DEBUG: 2025-11-24 20:15:28,744:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,744:      pdf_renderer.py:  470: printSegment: Do we lead with different Eidolons for different personas?
+   DEBUG: 2025-11-24 20:15:28,745:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,745:      pdf_renderer.py:  470: printSegment: Or universal FinBot entry (financial pain is universal)?
+   DEBUG: 2025-11-24 20:15:28,746:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,746:      pdf_renderer.py:  470: printSegment: Multi-Eidolon bundle for comprehensive support?
+   DEBUG: 2025-11-24 20:15:28,747:      pdf_renderer.py:  470: printSegment: 7. CUSTOMIZATION VS. STANDARDIZATION PHILOSOPHY
+   DEBUG: 2025-11-24 20:15:28,747:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,748:      pdf_renderer.py:  470: printSegment: Awaiting Gemini
+   DEBUG: 2025-11-24 20:15:28,748:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:28,749:      pdf_renderer.py:  470: printSegment: s strategic + Copilot
+   DEBUG: 2025-11-24 20:15:28,749:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:28,749:      pdf_renderer.py:  470: printSegment: s practical analysis
+   DEBUG: 2025-11-24 20:15:28,750:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,750:      pdf_renderer.py:  470: printSegment: Spectrum Options
+   DEBUG: 2025-11-24 20:15:28,750:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:28,751:      pdf_renderer.py:  470: printSegment: Highly Standardized
+   DEBUG: 2025-11-24 20:15:28,751:      pdf_renderer.py:  470: printSegment:  (productized, scalable, lower value perception)
+   DEBUG: 2025-11-24 20:15:28,752:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:28,752:      pdf_renderer.py:  470: printSegment: Hybrid Approach
+   DEBUG: 2025-11-24 20:15:28,753:      pdf_renderer.py:  470: printSegment:  (core capabilities standard, customization layers)
+   DEBUG: 2025-11-24 20:15:28,753:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:28,754:      pdf_renderer.py:  470: printSegment: Highly Customized
+   DEBUG: 2025-11-24 20:15:28,754:      pdf_renderer.py:  470: printSegment:  (bespoke, premium, harder to scale)
+   DEBUG: 2025-11-24 20:15:28,755:      pdf_renderer.py:  470: printSegment: Recommendation
+   DEBUG: 2025-11-24 20:15:28,755:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,755:      pdf_renderer.py:  470: printSegment: TBD from team inputs
+   DEBUG: 2025-11-24 20:15:28,756:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,756:      pdf_renderer.py:  470: printSegment: Per-Eidolon Customization Needs
+   DEBUG: 2025-11-24 20:15:28,757:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,757:      pdf_renderer.py:  470: printSegment: FinBot:
+   DEBUG: 2025-11-24 20:15:28,758:      pdf_renderer.py:  470: printSegment:  TBD (likely high - client-specific financials)
+   DEBUG: 2025-11-24 20:15:28,758:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,758:      pdf_renderer.py:  470: printSegment: BrandBot:
+   DEBUG: 2025-11-24 20:15:28,759:      pdf_renderer.py:  470: printSegment:  TBD (likely medium - industry context varies)
+   DEBUG: 2025-11-24 20:15:28,759:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,760:      pdf_renderer.py:  470: printSegment: LeadGen:
+   DEBUG: 2025-11-24 20:15:28,760:      pdf_renderer.py:  470: printSegment:  TBD (likely medium - target market varies)
+   DEBUG: 2025-11-24 20:15:28,761:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,761:      pdf_renderer.py:  470: printSegment: SupportBot:
+   DEBUG: 2025-11-24 20:15:28,762:      pdf_renderer.py:  470: printSegment:  TBD (likely low - more standardized workflows)
+   DEBUG: 2025-11-24 20:15:28,762:      pdf_renderer.py:  470: printSegment: Customization Levels 
+   DEBUG: 2025-11-24 20:15:28,763:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,763:      pdf_renderer.py:  470: printSegment:  Pricing
+   DEBUG: 2025-11-24 20:15:28,763:      pdf_renderer.py:  470: printSegment: Level 1: Configuration
+   DEBUG: 2025-11-24 20:15:28,764:      pdf_renderer.py:  470: printSegment:  (
+   DEBUG: 2025-11-24 20:15:28,764:      pdf_renderer.py:  470: printSegment: <
+   DEBUG: 2025-11-24 20:15:28,765:      pdf_renderer.py:  470: printSegment:  1 hour, included in base price)
+   DEBUG: 2025-11-24 20:15:28,765:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,765:      pdf_renderer.py:  470: printSegment: Level 2: Integration
+   DEBUG: 2025-11-24 20:15:28,766:      pdf_renderer.py:  470: printSegment:  (2-8 hours, included or small
+   DEBUG: 2025-11-24 20:15:28,766:      pdf_renderer.py:  470: printSegment: premium?)
+   DEBUG: 2025-11-24 20:15:28,766:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,767:      pdf_renderer.py:  470: printSegment: Level 3: Domain Training
+   DEBUG: 2025-11-24 20:15:28,767:      pdf_renderer.py:  470: printSegment:  (1-2 weeks, included in onboarding?)
+   DEBUG: 2025-11-24 20:15:28,768:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,768:      pdf_renderer.py:  470: printSegment: Level 4: Custom Capabilities
+   DEBUG: 2025-11-24 20:15:28,768:      pdf_renderer.py:  470: printSegment:  (2-4
+   DEBUG: 2025-11-24 20:15:28,769:      pdf_renderer.py:  470: printSegment: weeks, premium pricing?)
+   DEBUG: 2025-11-24 20:15:28,769:      pdf_renderer.py:  470: printSegment: 8. EIDOLON DEMONSTRATION STRATEGY
+   DEBUG: 2025-11-24 20:15:28,770:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,770:      pdf_renderer.py:  470: printSegment: Awaiting Gemini strategic + Codex technical analysis
+   DEBUG: 2025-11-24 20:15:28,771:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,771:      pdf_renderer.py:  470: printSegment: Challenge
+   DEBUG: 2025-11-24 20:15:28,772:      pdf_renderer.py:  470: printSegment: How do we prove Eidolon value WITHOUT revealing IP or overwhelming prospects?
+   DEBUG: 2025-11-24 20:15:28,772:      pdf_renderer.py:  470: printSegment: Demonstration Options
+   DEBUG: 2025-11-24 20:15:28,773:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:28,774:      pdf_renderer.py:  470: printSegment: Case Studies
+   DEBUG: 2025-11-24 20:15:28,775:      pdf_renderer.py:  470: printSegment:  (
+   DEBUG: 2025-11-24 20:15:28,776:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:28,778:      pdf_renderer.py:  470: printSegment: FinBot helped startup X reduce CFO costs by 70%
+   DEBUG: 2025-11-24 20:15:28,780:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:28,781:      pdf_renderer.py:  470: printSegment: )
+   DEBUG: 2025-11-24 20:15:28,781:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:28,782:      pdf_renderer.py:  470: printSegment: Pre-recorded Video Demos
+   DEBUG: 2025-11-24 20:15:28,784:      pdf_renderer.py:  470: printSegment:  (safe, controlled, repeatable)
+   DEBUG: 2025-11-24 20:15:28,785:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:28,786:      pdf_renderer.py:  470: printSegment: Interactive Simulations
+   DEBUG: 2025-11-24 20:15:28,788:      pdf_renderer.py:  470: printSegment:  (prospects try simplified version)
+   DEBUG: 2025-11-24 20:15:28,789:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2025-11-24 20:15:28,791:      pdf_renderer.py:  470: printSegment: Live Demos
+   DEBUG: 2025-11-24 20:15:28,792:      pdf_renderer.py:  470: printSegment:  (controlled with sample data)
+   DEBUG: 2025-11-24 20:15:28,793:      pdf_renderer.py:  470: printSegment:  5 
+   DEBUG: 2025-11-24 20:15:28,795:      pdf_renderer.py:  470: printSegment: Behind-the-Scenes Transparency
+   DEBUG: 2025-11-24 20:15:28,795:      pdf_renderer.py:  470: printSegment:  (show multi-AI collaboration?)
+   DEBUG: 2025-11-24 20:15:28,796:      pdf_renderer.py:  470: printSegment: Recommendations per Eidolon
+   DEBUG: 2025-11-24 20:15:28,797:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,799:      pdf_renderer.py:  470: printSegment: FinBot:
+   DEBUG: 2025-11-24 20:15:28,800:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,801:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,802:      pdf_renderer.py:  470: printSegment: BrandBot:
+   DEBUG: 2025-11-24 20:15:28,804:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,805:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,806:      pdf_renderer.py:  470: printSegment: LeadGen:
+   DEBUG: 2025-11-24 20:15:28,806:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,807:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,807:      pdf_renderer.py:  470: printSegment: SupportBot:
+   DEBUG: 2025-11-24 20:15:28,808:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,809:      pdf_renderer.py:  470: printSegment: Website Integration
+   DEBUG: 2025-11-24 20:15:28,810:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,811:      pdf_renderer.py:  470: printSegment: Dependency on Section 3: Website strategy
+   DEBUG: 2025-11-24 20:15:28,812:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,813:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,815:      pdf_renderer.py:  470: printSegment: Homepage hero demo: Which Eidolon?
+   DEBUG: 2025-11-24 20:15:28,816:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,816:      pdf_renderer.py:  470: printSegment: Individual Eidolon pages: Demo format?
+   DEBUG: 2025-11-24 20:15:28,818:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,819:      pdf_renderer.py:  470: printSegment: Interactive elements: Feasibility?
+   DEBUG: 2025-11-24 20:15:28,821:      pdf_renderer.py:  470: printSegment: 9. PRICING STRATEGY
+   DEBUG: 2025-11-24 20:15:28,822:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,823:      pdf_renderer.py:  470: printSegment: Awaiting Gemini strategic + Copilot practical analysis
+   DEBUG: 2025-11-24 20:15:28,824:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,824:      pdf_renderer.py:  470: printSegment: Current Positioning
+   DEBUG: 2025-11-24 20:15:28,825:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,825:      pdf_renderer.py:  470: printSegment: Base Price:
+   DEBUG: 2025-11-24 20:15:28,826:      pdf_renderer.py:  470: printSegment:  $2,000/month per Eidolon
+   DEBUG: 2025-11-24 20:15:28,826:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,827:      pdf_renderer.py:  470: printSegment: Tagline:
+   DEBUG: 2025-11-24 20:15:28,827:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,827:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:28,828:      pdf_renderer.py:  470: printSegment: A Benjamin a Day
+   DEBUG: 2025-11-24 20:15:28,828:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:28,829:      pdf_renderer.py:  470: printSegment:  ($100/day)
+   DEBUG: 2025-11-24 20:15:28,829:      pdf_renderer.py:  470: printSegment: Questions to Address
+   DEBUG: 2025-11-24 20:15:28,830:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:28,830:      pdf_renderer.py:  470: printSegment: Uniform vs. Tiered Pricing:
+   DEBUG: 2025-11-24 20:15:28,831:      pdf_renderer.py:  470: printSegment:  Should all Eidolons be $2K/month or vary by value/complexity?
+   DEBUG: 2025-11-24 20:15:28,831:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:28,832:      pdf_renderer.py:  470: printSegment: Bundle Discounts:
+   DEBUG: 2025-11-24 20:15:28,832:      pdf_renderer.py:  470: printSegment:  Multi-Eidolon package pricing?
+   DEBUG: 2025-11-24 20:15:28,833:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,834:      pdf_renderer.py:  470: printSegment: Example: 2 Eidolons for $3.5K/month (12.5% discount)
+   DEBUG: 2025-11-24 20:15:28,834:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,834:      pdf_renderer.py:  470: printSegment: Example: 3+ Eidolons for $2.7K/month each (enterprise tier)
+   DEBUG: 2025-11-24 20:15:28,835:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:28,835:      pdf_renderer.py:  470: printSegment: Introductory Pricing:
+   DEBUG: 2025-11-24 20:15:28,836:      pdf_renderer.py:  470: printSegment:  Early adopter discounts?
+   DEBUG: 2025-11-24 20:15:28,836:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2025-11-24 20:15:28,836:      pdf_renderer.py:  470: printSegment: Consulting vs. Subscription:
+   DEBUG: 2025-11-24 20:15:28,837:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,837:      pdf_renderer.py:  470: printSegment: Phase 1 (Consulting): $5-10K project fee?
+   DEBUG: 2025-11-24 20:15:28,838:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,838:      pdf_renderer.py:  470: printSegment: Phase 2 (Subscription): $2K/month?
+   DEBUG: 2025-11-24 20:15:28,838:      pdf_renderer.py:  470: printSegment:  5 
+   DEBUG: 2025-11-24 20:15:28,839:      pdf_renderer.py:  470: printSegment: Enterprise Pricing:
+   DEBUG: 2025-11-24 20:15:28,839:      pdf_renderer.py:  470: printSegment:  Larger companies (50+ employees) premium?
+   DEBUG: 2025-11-24 20:15:28,840:      pdf_renderer.py:  470: printSegment: Competitive Positioning
+   DEBUG: 2025-11-24 20:15:28,840:      pdf_renderer.py:  470: printSegment: vs. Human Hires:
+   DEBUG: 2025-11-24 20:15:28,841:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,841:      pdf_renderer.py:  470: printSegment: Fractional CFO: $5-10K/month → FinBot: $2K/month (60-80% savings)
+   DEBUG: 2025-11-24 20:15:28,842:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,842:      pdf_renderer.py:  470: printSegment: Marketing Consultant: $3-8K/month → BrandBot: $2K/month (60-75% savings)
+   DEBUG: 2025-11-24 20:15:28,842:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,843:      pdf_renderer.py:  470: printSegment: SDR: $4-8K/month → LeadGen: $2K/month (60-75% savings)
+   DEBUG: 2025-11-24 20:15:28,843:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,844:      pdf_renderer.py:  470: printSegment: Support Agent: $3-6K/month → SupportBot: $2K/month (60-70% savings)
+   DEBUG: 2025-11-24 20:15:28,844:      pdf_renderer.py:  470: printSegment: vs. AI Tools:
+   DEBUG: 2025-11-24 20:15:28,845:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,845:      pdf_renderer.py:  470: printSegment: ChatGPT Plus: $20/month (100x price difference - how to justify?)
+   DEBUG: 2025-11-24 20:15:28,846:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,846:      pdf_renderer.py:  470: printSegment: Jasper (marketing): $49-125/month (16-40x difference)
+   DEBUG: 2025-11-24 20:15:28,847:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,847:      pdf_renderer.py:  470: printSegment: Custom AI solution: $10-50K build cost + maintenance
+   DEBUG: 2025-11-24 20:15:28,848:      pdf_renderer.py:  470: printSegment: Justification:
+   DEBUG: 2025-11-24 20:15:28,849:      pdf_renderer.py:  470: printSegment:  TBD (Orchestra infrastructure, domain expertise, continuous learning, human oversight, guaranteed
+   DEBUG: 2025-11-24 20:15:28,849:      pdf_renderer.py:  470: printSegment: outcomes?)
+   DEBUG: 2025-11-24 20:15:28,850:      pdf_renderer.py:  470: printSegment: 10. PERFORMANCE METRICS 
+   DEBUG: 2025-11-24 20:15:28,850:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,850:      pdf_renderer.py:  470: printSegment:  SUCCESS MEASUREMENT
+   DEBUG: 2025-11-24 20:15:28,851:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,851:      pdf_renderer.py:  470: printSegment: Awaiting Gemini strategic + Copilot practical analysis
+   DEBUG: 2025-11-24 20:15:28,852:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,852:      pdf_renderer.py:  470: printSegment: Per-Eidolon Metrics
+   DEBUG: 2025-11-24 20:15:28,853:      pdf_renderer.py:  470: printSegment: FinBot:
+   DEBUG: 2025-11-24 20:15:28,853:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,853:      pdf_renderer.py:  470: printSegment: Financial model accuracy
+   DEBUG: 2025-11-24 20:15:28,854:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,854:      pdf_renderer.py:  470: printSegment: Time saved vs. manual analysis (hours/month)
+   DEBUG: 2025-11-24 20:15:28,855:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,855:      pdf_renderer.py:  470: printSegment: Cost savings vs. alternatives (€/month)
+   DEBUG: 2025-11-24 20:15:28,856:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,856:      pdf_renderer.py:  470: printSegment: Investor-readiness score improvement
+   DEBUG: 2025-11-24 20:15:28,857:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,857:      pdf_renderer.py:  470: printSegment: Cash runway optimization (months extended)
+   DEBUG: 2025-11-24 20:15:28,858:      pdf_renderer.py:  470: printSegment: BrandBot:
+   DEBUG: 2025-11-24 20:15:28,858:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,859:      pdf_renderer.py:  470: printSegment: Brand awareness lift (measured how?)
+   DEBUG: 2025-11-24 20:15:28,859:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,859:      pdf_renderer.py:  470: printSegment: Content output (pieces/month)
+   DEBUG: 2025-11-24 20:15:28,860:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,860:      pdf_renderer.py:  470: printSegment: Engagement metrics (social, web traffic)
+   DEBUG: 2025-11-24 20:15:28,861:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,861:      pdf_renderer.py:  470: printSegment: Messaging consistency score
+   DEBUG: 2025-11-24 20:15:28,862:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,862:      pdf_renderer.py:  470: printSegment: Time to market for campaigns
+   DEBUG: 2025-11-24 20:15:28,863:      pdf_renderer.py:  470: printSegment: LeadGen:
+   DEBUG: 2025-11-24 20:15:28,863:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,864:      pdf_renderer.py:  470: printSegment: Qualified leads generated (count/month)
+   DEBUG: 2025-11-24 20:15:28,864:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,865:      pdf_renderer.py:  470: printSegment: Conversion rate improvement (%)
+   DEBUG: 2025-11-24 20:15:28,865:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,866:      pdf_renderer.py:  470: printSegment: Outreach volume (contacts/month)
+   DEBUG: 2025-11-24 20:15:28,866:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,867:      pdf_renderer.py:  470: printSegment: Response rates (%)
+   DEBUG: 2025-11-24 20:15:28,867:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,867:      pdf_renderer.py:  470: printSegment: Pipeline value added (€)
+   DEBUG: 2025-11-24 20:15:28,868:      pdf_renderer.py:  470: printSegment: SupportBot:
+   DEBUG: 2025-11-24 20:15:28,868:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,869:      pdf_renderer.py:  470: printSegment: Response time (average, first response)
+   DEBUG: 2025-11-24 20:15:28,869:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,869:      pdf_renderer.py:  470: printSegment: Resolution time (average)
+   DEBUG: 2025-11-24 20:15:28,870:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,870:      pdf_renderer.py:  470: printSegment: Customer satisfaction (CSAT, NPS)
+   DEBUG: 2025-11-24 20:15:28,870:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,871:      pdf_renderer.py:  470: printSegment: Ticket deflection rate (%)
+   DEBUG: 2025-11-24 20:15:28,871:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,872:      pdf_renderer.py:  470: printSegment: Support cost savings (€/month)
+   DEBUG: 2025-11-24 20:15:28,872:      pdf_renderer.py:  470: printSegment: Client Reporting Framework
+   DEBUG: 2025-11-24 20:15:28,873:      pdf_renderer.py:  470: printSegment: Monthly Report Structure:
+   DEBUG: 2025-11-24 20:15:28,873:      pdf_renderer.py:  470: printSegment:  TBD (see individual Eidolon sections)
+   DEBUG: 2025-11-24 20:15:28,873:      pdf_renderer.py:  470: printSegment: Internal Performance Monitoring
+   DEBUG: 2025-11-24 20:15:28,874:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,874:      pdf_renderer.py:  470: printSegment: Awaiting Codex technical analysis
+   DEBUG: 2025-11-24 20:15:28,875:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,875:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,875:      pdf_renderer.py:  470: printSegment: Uptime and availability
+   DEBUG: 2025-11-24 20:15:28,876:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,876:      pdf_renderer.py:  470: printSegment: Response time and latency
+   DEBUG: 2025-11-24 20:15:28,876:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,877:      pdf_renderer.py:  470: printSegment: Error rates
+   DEBUG: 2025-11-24 20:15:28,877:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,878:      pdf_renderer.py:  470: printSegment: Client satisfaction scores
+   DEBUG: 2025-11-24 20:15:28,878:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,878:      pdf_renderer.py:  470: printSegment: Churn indicators
+   DEBUG: 2025-11-24 20:15:28,879:      pdf_renderer.py:  470: printSegment: 11. EIDOLON TECHNICAL ARCHITECTURE
+   DEBUG: 2025-11-24 20:15:28,879:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,880:      pdf_renderer.py:  470: printSegment: Awaiting Codex
+   DEBUG: 2025-11-24 20:15:28,880:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:28,880:      pdf_renderer.py:  470: printSegment: s technical analysis
+   DEBUG: 2025-11-24 20:15:28,881:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,881:      pdf_renderer.py:  470: printSegment: Fundamental Questions
+   DEBUG: 2025-11-24 20:15:28,882:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:28,882:      pdf_renderer.py:  470: printSegment: What IS an Eidolon technically?
+   DEBUG: 2025-11-24 20:15:28,882:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,883:      pdf_renderer.py:  470: printSegment: Configuration of Orchestra system?
+   DEBUG: 2025-11-24 20:15:28,883:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,884:      pdf_renderer.py:  470: printSegment: Dedicated AI agent instances?
+   DEBUG: 2025-11-24 20:15:28,884:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,885:      pdf_renderer.py:  470: printSegment: Microservice architecture?
+   DEBUG: 2025-11-24 20:15:28,885:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:28,885:      pdf_renderer.py:  470: printSegment: Multi-AI Coordination:
+   DEBUG: 2025-11-24 20:15:28,886:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,886:      pdf_renderer.py:  470: printSegment: How do Claude, Gemini, Codex, Copilot work together as unified 
+   DEBUG: 2025-11-24 20:15:28,887:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:28,887:      pdf_renderer.py:  470: printSegment: FinBot
+   DEBUG: 2025-11-24 20:15:28,887:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:28,888:      pdf_renderer.py:  470: printSegment: ?
+   DEBUG: 2025-11-24 20:15:28,888:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,889:      pdf_renderer.py:  470: printSegment: Orchestration mechanism?
+   DEBUG: 2025-11-24 20:15:28,889:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,890:      pdf_renderer.py:  470: printSegment: Client-facing interface?
+   DEBUG: 2025-11-24 20:15:28,890:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:28,891:      pdf_renderer.py:  470: printSegment: Client Data Isolation:
+   DEBUG: 2025-11-24 20:15:28,891:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,892:      pdf_renderer.py:  470: printSegment: How do we keep Client A
+   DEBUG: 2025-11-24 20:15:28,892:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:28,892:      pdf_renderer.py:  470: printSegment: s data separate from Client B
+   DEBUG: 2025-11-24 20:15:28,893:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:28,893:      pdf_renderer.py:  470: printSegment: s?
+   DEBUG: 2025-11-24 20:15:28,894:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,894:      pdf_renderer.py:  470: printSegment: Security architecture?
+   DEBUG: 2025-11-24 20:15:28,895:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,895:      pdf_renderer.py:  470: printSegment: GDPR compliance?
+   DEBUG: 2025-11-24 20:15:28,896:      pdf_renderer.py:  470: printSegment: Technical Implementation
+   DEBUG: 2025-11-24 20:15:28,896:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,897:      pdf_renderer.py:  470: printSegment: Architecture Diagram:
+   DEBUG: 2025-11-24 20:15:28,898:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,898:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,899:      pdf_renderer.py:  470: printSegment: Deployment Workflow:
+   DEBUG: 2025-11-24 20:15:28,899:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,900:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,900:      pdf_renderer.py:  470: printSegment: Integration Patterns:
+   DEBUG: 2025-11-24 20:15:28,900:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,901:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,901:      pdf_renderer.py:  470: printSegment: Monitoring 
+   DEBUG: 2025-11-24 20:15:28,902:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,902:      pdf_renderer.py:  470: printSegment:  Alerting:
+   DEBUG: 2025-11-24 20:15:28,902:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,903:      pdf_renderer.py:  470: printSegment: Development Roadmap
+   DEBUG: 2025-11-24 20:15:28,903:      pdf_renderer.py:  470: printSegment: Phase 0 (Months 1-4): FinBot MVP
+   DEBUG: 2025-11-24 20:15:28,903:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,904:      pdf_renderer.py:  470: printSegment: Timeline: TBD
+   DEBUG: 2025-11-24 20:15:28,904:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,904:      pdf_renderer.py:  470: printSegment: Resources: TBD
+   DEBUG: 2025-11-24 20:15:28,905:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,905:      pdf_renderer.py:  470: printSegment: Critical path: TBD
+   DEBUG: 2025-11-24 20:15:28,905:      pdf_renderer.py:  470: printSegment: Phase 1 (Months 5-8): FinBot Refinement
+   DEBUG: 2025-11-24 20:15:28,906:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,906:      pdf_renderer.py:  470: printSegment: Optimization: TBD
+   DEBUG: 2025-11-24 20:15:28,907:      pdf_renderer.py:  470: printSegment: Phase 2 (Months 9-12): Multi-Eidolon Platform
+   DEBUG: 2025-11-24 20:15:28,907:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,907:      pdf_renderer.py:  470: printSegment: Abstraction framework: TBD
+   DEBUG: 2025-11-24 20:15:28,908:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,908:      pdf_renderer.py:  470: printSegment: Scalability: TBD
+   DEBUG: 2025-11-24 20:15:28,909:      pdf_renderer.py:  470: printSegment: 12. CLIENT ONBOARDING 
+   DEBUG: 2025-11-24 20:15:28,909:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,909:      pdf_renderer.py:  470: printSegment:  OPERATIONS
+   DEBUG: 2025-11-24 20:15:28,910:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,910:      pdf_renderer.py:  470: printSegment: Awaiting Copilot
+   DEBUG: 2025-11-24 20:15:28,910:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:28,911:      pdf_renderer.py:  470: printSegment: s practical execution plan
+   DEBUG: 2025-11-24 20:15:28,911:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,912:      pdf_renderer.py:  470: printSegment: Standard Onboarding Workflow
+   DEBUG: 2025-11-24 20:15:28,912:      pdf_renderer.py:  470: printSegment: Week 1: Discovery 
+   DEBUG: 2025-11-24 20:15:28,912:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,913:      pdf_renderer.py:  470: printSegment:  Setup
+   DEBUG: 2025-11-24 20:15:28,913:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,913:      pdf_renderer.py:  470: printSegment: Kickoff call content: TBD
+   DEBUG: 2025-11-24 20:15:28,914:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,914:      pdf_renderer.py:  470: printSegment: Data gathering requirements: TBD
+   DEBUG: 2025-11-24 20:15:28,914:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,915:      pdf_renderer.py:  470: printSegment: System access setup: TBD
+   DEBUG: 2025-11-24 20:15:28,915:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,916:      pdf_renderer.py:  470: printSegment: Initial assessment: TBD
+   DEBUG: 2025-11-24 20:15:28,916:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,916:      pdf_renderer.py:  470: printSegment: Owner:
+   DEBUG: 2025-11-24 20:15:28,917:      pdf_renderer.py:  470: printSegment:  TBD (Christian? Janus? Both?)
+   DEBUG: 2025-11-24 20:15:28,917:      pdf_renderer.py:  470: printSegment: Week 2-4: Training 
+   DEBUG: 2025-11-24 20:15:28,918:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,918:      pdf_renderer.py:  470: printSegment:  Initial Delivery
+   DEBUG: 2025-11-24 20:15:28,918:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,919:      pdf_renderer.py:  470: printSegment: Domain-specific training approach: TBD
+   DEBUG: 2025-11-24 20:15:28,919:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,920:      pdf_renderer.py:  470: printSegment: First deliverables: TBD
+   DEBUG: 2025-11-24 20:15:28,920:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,920:      pdf_renderer.py:  470: printSegment: Client feedback loop: TBD
+   DEBUG: 2025-11-24 20:15:28,921:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,921:      pdf_renderer.py:  470: printSegment: Owner:
+   DEBUG: 2025-11-24 20:15:28,921:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,922:      pdf_renderer.py:  470: printSegment: Week 5-8: Supervised Operation
+   DEBUG: 2025-11-24 20:15:28,922:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,923:      pdf_renderer.py:  470: printSegment: Client collaboration model: TBD
+   DEBUG: 2025-11-24 20:15:28,923:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,924:      pdf_renderer.py:  470: printSegment: Check-in frequency: TBD
+   DEBUG: 2025-11-24 20:15:28,924:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,924:      pdf_renderer.py:  470: printSegment: Performance reporting: TBD
+   DEBUG: 2025-11-24 20:15:28,925:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,925:      pdf_renderer.py:  470: printSegment: Owner:
+   DEBUG: 2025-11-24 20:15:28,926:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,926:      pdf_renderer.py:  470: printSegment: Week 9+: Autonomous Operation
+   DEBUG: 2025-11-24 20:15:28,926:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,927:      pdf_renderer.py:  470: printSegment: Direct client-Eidolon interaction: TBD
+   DEBUG: 2025-11-24 20:15:28,927:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,928:      pdf_renderer.py:  470: printSegment: Human oversight level: TBD
+   DEBUG: 2025-11-24 20:15:28,928:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,929:      pdf_renderer.py:  470: printSegment: Monthly review process: TBD
+   DEBUG: 2025-11-24 20:15:28,929:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,929:      pdf_renderer.py:  470: printSegment: Owner:
+   DEBUG: 2025-11-24 20:15:28,930:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,930:      pdf_renderer.py:  470: printSegment: Daily Operations
+   DEBUG: 2025-11-24 20:15:28,931:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,931:      pdf_renderer.py:  470: printSegment: Monitoring:
+   DEBUG: 2025-11-24 20:15:28,932:      pdf_renderer.py:  470: printSegment:  Who watches Eidolon performance?
+   DEBUG: 2025-11-24 20:15:28,932:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,933:      pdf_renderer.py:  470: printSegment: Error Handling:
+   DEBUG: 2025-11-24 20:15:28,933:      pdf_renderer.py:  470: printSegment:  What if Eidolon makes a mistake?
+   DEBUG: 2025-11-24 20:15:28,933:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,934:      pdf_renderer.py:  470: printSegment: Response Times:
+   DEBUG: 2025-11-24 20:15:28,934:      pdf_renderer.py:  470: printSegment:  Service level commitments?
+   DEBUG: 2025-11-24 20:15:28,934:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,935:      pdf_renderer.py:  470: printSegment: Escalation:
+   DEBUG: 2025-11-24 20:15:28,935:      pdf_renderer.py:  470: printSegment:  Process for complex issues?
+   DEBUG: 2025-11-24 20:15:28,935:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,936:      pdf_renderer.py:  470: printSegment: QA:
+   DEBUG: 2025-11-24 20:15:28,936:      pdf_renderer.py:  470: printSegment:  Who reviews outputs before client sees them?
+   DEBUG: 2025-11-24 20:15:28,937:      pdf_renderer.py:  470: printSegment: Team Roles
+   DEBUG: 2025-11-24 20:15:28,937:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,937:      pdf_renderer.py:  470: printSegment: Christian:
+   DEBUG: 2025-11-24 20:15:28,938:      pdf_renderer.py:  470: printSegment:  TBD (technical oversight, infrastructure)
+   DEBUG: 2025-11-24 20:15:28,938:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,938:      pdf_renderer.py:  470: printSegment: Janus:
+   DEBUG: 2025-11-24 20:15:28,939:      pdf_renderer.py:  470: printSegment:  TBD (FinBot strategy, business guidance)
+   DEBUG: 2025-11-24 20:15:28,939:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,940:      pdf_renderer.py:  470: printSegment: Bettina:
+   DEBUG: 2025-11-24 20:15:28,940:      pdf_renderer.py:  470: printSegment:  TBD (operations, client success)
+   DEBUG: 2025-11-24 20:15:28,940:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,941:      pdf_renderer.py:  470: printSegment: Eidolons:
+   DEBUG: 2025-11-24 20:15:28,941:      pdf_renderer.py:  470: printSegment:  TBD (degree of autonomy)
+   DEBUG: 2025-11-24 20:15:28,942:      pdf_renderer.py:  470: printSegment: 13. INTEGRATION REQUIREMENTS
+   DEBUG: 2025-11-24 20:15:28,942:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,943:      pdf_renderer.py:  470: printSegment: Awaiting Copilot practical + Codex technical analysis
+   DEBUG: 2025-11-24 20:15:28,943:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,943:      pdf_renderer.py:  470: printSegment: FinBot Integrations
+   DEBUG: 2025-11-24 20:15:28,944:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,944:      pdf_renderer.py:  470: printSegment: Xero / QuickBooks (accounting): Setup time TBD, API requirements TBD
+   DEBUG: 2025-11-24 20:15:28,945:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,945:      pdf_renderer.py:  470: printSegment: Stripe (payments): TBD
+   DEBUG: 2025-11-24 20:15:28,945:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,946:      pdf_renderer.py:  470: printSegment: Banking APIs (Plaid, Tink): TBD
+   DEBUG: 2025-11-24 20:15:28,946:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,947:      pdf_renderer.py:  470: printSegment: Google Sheets (collaborative): TBD
+   DEBUG: 2025-11-24 20:15:28,947:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,948:      pdf_renderer.py:  470: printSegment: Slack / Teams (notifications): TBD
+   DEBUG: 2025-11-24 20:15:28,948:      pdf_renderer.py:  470: printSegment: BrandBot Integrations
+   DEBUG: 2025-11-24 20:15:28,948:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,949:      pdf_renderer.py:  470: printSegment: TBD
+   DEBUG: 2025-11-24 20:15:28,949:      pdf_renderer.py:  470: printSegment: LeadGen Integrations
+   DEBUG: 2025-11-24 20:15:28,950:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,950:      pdf_renderer.py:  470: printSegment: TBD
+   DEBUG: 2025-11-24 20:15:28,950:      pdf_renderer.py:  470: printSegment: SupportBot Integrations
+   DEBUG: 2025-11-24 20:15:28,951:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,951:      pdf_renderer.py:  470: printSegment: TBD
+   DEBUG: 2025-11-24 20:15:28,952:      pdf_renderer.py:  470: printSegment: Integration Strategy
+   DEBUG: 2025-11-24 20:15:28,952:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,952:      pdf_renderer.py:  470: printSegment: Must-haves vs. Nice-to-haves:
+   DEBUG: 2025-11-24 20:15:28,953:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,953:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,954:      pdf_renderer.py:  470: printSegment: Unsupported Tools:
+   DEBUG: 2025-11-24 20:15:28,954:      pdf_renderer.py:  470: printSegment:  Workaround strategy? Custom integration pricing?
+   DEBUG: 2025-11-24 20:15:28,954:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,955:      pdf_renderer.py:  470: printSegment: Setup Time per Integration:
+   DEBUG: 2025-11-24 20:15:28,955:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,956:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,956:      pdf_renderer.py:  470: printSegment: Maintenance Burden:
+   DEBUG: 2025-11-24 20:15:28,957:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:28,957:      pdf_renderer.py:  470: printSegment: 14. DOCUMENTATION 
+   DEBUG: 2025-11-24 20:15:28,958:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,958:      pdf_renderer.py:  470: printSegment:  TRAINING MATERIALS
+   DEBUG: 2025-11-24 20:15:28,959:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,959:      pdf_renderer.py:  470: printSegment: Awaiting Copilot
+   DEBUG: 2025-11-24 20:15:28,959:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:28,960:      pdf_renderer.py:  470: printSegment: s practical requirements
+   DEBUG: 2025-11-24 20:15:28,960:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,960:      pdf_renderer.py:  470: printSegment: For Clients
+   DEBUG: 2025-11-24 20:15:28,961:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,961:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,962:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,962:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,962:      pdf_renderer.py:  470: printSegment:  Eidolon User Guide (how to work with AI Digital Coworker)
+   DEBUG: 2025-11-24 20:15:28,963:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,963:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,963:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,964:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,964:      pdf_renderer.py:  470: printSegment:  Integration setup guides (per tool)
+   DEBUG: 2025-11-24 20:15:28,964:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,965:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,965:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,965:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,966:      pdf_renderer.py:  470: printSegment:  FAQ document
+   DEBUG: 2025-11-24 20:15:28,966:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,966:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,966:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,967:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,967:      pdf_renderer.py:  470: printSegment:  Best practices for interaction
+   DEBUG: 2025-11-24 20:15:28,968:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,968:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,968:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,969:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,969:      pdf_renderer.py:  470: printSegment:  Troubleshooting guide
+   DEBUG: 2025-11-24 20:15:28,969:      pdf_renderer.py:  470: printSegment: For Internal Team
+   DEBUG: 2025-11-24 20:15:28,970:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,970:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,970:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,971:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,971:      pdf_renderer.py:  470: printSegment:  Eidolon deployment checklist
+   DEBUG: 2025-11-24 20:15:28,971:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,972:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,972:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,972:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,973:      pdf_renderer.py:  470: printSegment:  Onboarding playbook
+   DEBUG: 2025-11-24 20:15:28,973:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,973:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,974:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,974:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,974:      pdf_renderer.py:  470: printSegment:  Troubleshooting runbook
+   DEBUG: 2025-11-24 20:15:28,975:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,975:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,976:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,976:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,976:      pdf_renderer.py:  470: printSegment:  Performance monitoring guide
+   DEBUG: 2025-11-24 20:15:28,977:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,977:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,977:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:28,978:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,978:      pdf_renderer.py:  470: printSegment:  Client success playbook
+   DEBUG: 2025-11-24 20:15:28,979:      pdf_renderer.py:  470: printSegment: Timeline
+   DEBUG: 2025-11-24 20:15:28,979:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,979:      pdf_renderer.py:  470: printSegment: Week 1 (Client 1 starts): Which docs needed?
+   DEBUG: 2025-11-24 20:15:28,980:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,980:      pdf_renderer.py:  470: printSegment: Ongoing development: Prioritization?
+   DEBUG: 2025-11-24 20:15:28,981:      pdf_renderer.py:  470: printSegment: 15. DEPLOYMENT TIMELINE 
+   DEBUG: 2025-11-24 20:15:28,981:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:28,982:      pdf_renderer.py:  470: printSegment:  PHASING
+   DEBUG: 2025-11-24 20:15:28,982:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:28,982:      pdf_renderer.py:  470: printSegment: Awaiting Copilot
+   DEBUG: 2025-11-24 20:15:28,983:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:28,983:      pdf_renderer.py:  470: printSegment: s practical roadmap
+   DEBUG: 2025-11-24 20:15:28,984:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:28,984:      pdf_renderer.py:  470: printSegment: Phase 0 (Week 1-4): FinBot MVP Preparation
+   DEBUG: 2025-11-24 20:15:28,984:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,985:      pdf_renderer.py:  470: printSegment: Client 1 consulting engagement begins
+   DEBUG: 2025-11-24 20:15:28,985:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,986:      pdf_renderer.py:  470: printSegment: FinBot capabilities finalized
+   DEBUG: 2025-11-24 20:15:28,986:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,987:      pdf_renderer.py:  470: printSegment: Janus-led financial strategy
+   DEBUG: 2025-11-24 20:15:28,987:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,988:      pdf_renderer.py:  470: printSegment: Readiness Date:
+   DEBUG: 2025-11-24 20:15:28,988:      pdf_renderer.py:  470: printSegment:  TBD (Week 5 when Client 1 starts using FinBot)
+   DEBUG: 2025-11-24 20:15:28,989:      pdf_renderer.py:  470: printSegment: Phase 1 (Month 2-7): FinBot Mastery
+   DEBUG: 2025-11-24 20:15:28,989:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,990:      pdf_renderer.py:  470: printSegment: 2-3 additional FinBot clients
+   DEBUG: 2025-11-24 20:15:28,990:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,990:      pdf_renderer.py:  470: printSegment: Systematize onboarding workflow
+   DEBUG: 2025-11-24 20:15:28,991:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,991:      pdf_renderer.py:  470: printSegment: Build case studies and testimonials
+   DEBUG: 2025-11-24 20:15:28,992:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,992:      pdf_renderer.py:  470: printSegment: Refine performance metrics
+   DEBUG: 2025-11-24 20:15:28,993:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,993:      pdf_renderer.py:  470: printSegment: Goal:
+   DEBUG: 2025-11-24 20:15:28,994:      pdf_renderer.py:  470: printSegment:  Prove FinBot model before expanding
+   DEBUG: 2025-11-24 20:15:28,994:      pdf_renderer.py:  470: printSegment: Phase 2 (Month 8+): Multi-Eidolon Expansion
+   DEBUG: 2025-11-24 20:15:28,995:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,995:      pdf_renderer.py:  470: printSegment: BrandBot Launch:
+   DEBUG: 2025-11-24 20:15:28,995:      pdf_renderer.py:  470: printSegment:  Month TBD
+   DEBUG: 2025-11-24 20:15:28,996:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,996:      pdf_renderer.py:  470: printSegment: LeadGen Launch:
+   DEBUG: 2025-11-24 20:15:28,997:      pdf_renderer.py:  470: printSegment:  Month TBD
+   DEBUG: 2025-11-24 20:15:28,997:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,998:      pdf_renderer.py:  470: printSegment: SupportBot Launch:
+   DEBUG: 2025-11-24 20:15:28,998:      pdf_renderer.py:  470: printSegment:  Month TBD
+   DEBUG: 2025-11-24 20:15:28,999:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:28,999:      pdf_renderer.py:  470: printSegment: Bundle offerings development
+   DEBUG: 2025-11-24 20:15:29,000:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,000:      pdf_renderer.py:  470: printSegment: Question:
+   DEBUG: 2025-11-24 20:15:29,001:      pdf_renderer.py:  470: printSegment:  All in Year 1 or focus on FinBot mastery?
+   DEBUG: 2025-11-24 20:15:29,001:      pdf_renderer.py:  470: printSegment: Critical Dependencies
+   DEBUG: 2025-11-24 20:15:29,002:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,002:      pdf_renderer.py:  470: printSegment: Section 1 (Legal): ApS formation, contracts
+   DEBUG: 2025-11-24 20:15:29,003:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,003:      pdf_renderer.py:  470: printSegment: Section 2 (Brand): Eidolon icons, messaging
+   DEBUG: 2025-11-24 20:15:29,003:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,004:      pdf_renderer.py:  470: printSegment: Section 3 (Website): Eidolon service pages
+   DEBUG: 2025-11-24 20:15:29,004:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,005:      pdf_renderer.py:  470: printSegment: Technical development: Architecture, integrations
+   DEBUG: 2025-11-24 20:15:29,005:      pdf_renderer.py:  470: printSegment: 16. CONTINUOUS IMPROVEMENT 
+   DEBUG: 2025-11-24 20:15:29,006:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:29,006:      pdf_renderer.py:  470: printSegment:  EVOLUTION
+   DEBUG: 2025-11-24 20:15:29,006:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:29,007:      pdf_renderer.py:  470: printSegment: Awaiting Gemini strategic + Codex technical analysis
+   DEBUG: 2025-11-24 20:15:29,007:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:29,008:      pdf_renderer.py:  470: printSegment: How Eidolons Get Better
+   DEBUG: 2025-11-24 20:15:29,008:      pdf_renderer.py:  470: printSegment: Client-Specific Learning:
+   DEBUG: 2025-11-24 20:15:29,008:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,009:      pdf_renderer.py:  470: printSegment: Approach: TBD (RAG, fine-tuning, feedback loops?)
+   DEBUG: 2025-11-24 20:15:29,009:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,010:      pdf_renderer.py:  470: printSegment: Privacy considerations: TBD
+   DEBUG: 2025-11-24 20:15:29,010:      pdf_renderer.py:  470: printSegment: Cross-Client Learning:
+   DEBUG: 2025-11-24 20:15:29,010:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,011:      pdf_renderer.py:  470: printSegment: Anonymized insights: TBD
+   DEBUG: 2025-11-24 20:15:29,011:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,012:      pdf_renderer.py:  470: printSegment: Pattern recognition: TBD
+   DEBUG: 2025-11-24 20:15:29,012:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,012:      pdf_renderer.py:  470: printSegment: Best practices automation: TBD
+   DEBUG: 2025-11-24 20:15:29,013:      pdf_renderer.py:  470: printSegment: Manual Improvements:
+   DEBUG: 2025-11-24 20:15:29,013:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,014:      pdf_renderer.py:  470: printSegment: Prompt engineering updates
+   DEBUG: 2025-11-24 20:15:29,014:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,014:      pdf_renderer.py:  470: printSegment: Workflow optimizations
+   DEBUG: 2025-11-24 20:15:29,015:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,015:      pdf_renderer.py:  470: printSegment: New capability additions
+   DEBUG: 2025-11-24 20:15:29,016:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,016:      pdf_renderer.py:  470: printSegment: Frequency:
+   DEBUG: 2025-11-24 20:15:29,017:      pdf_renderer.py:  470: printSegment:  Monthly? Quarterly?
+   DEBUG: 2025-11-24 20:15:29,017:      pdf_renderer.py:  470: printSegment: Versioning Strategy
+   DEBUG: 2025-11-24 20:15:29,018:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,018:      pdf_renderer.py:  470: printSegment: FinBot v1.0 → v2.0:
+   DEBUG: 2025-11-24 20:15:29,024:      pdf_renderer.py:  470: printSegment:  When? How communicated?
+   DEBUG: 2025-11-24 20:15:29,025:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,025:      pdf_renderer.py:  470: printSegment: Deployment:
+   DEBUG: 2025-11-24 20:15:29,025:      pdf_renderer.py:  470: printSegment:  Seamless updates or client-controlled?
+   DEBUG: 2025-11-24 20:15:29,026:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,026:      pdf_renderer.py:  470: printSegment: Rollback:
+   DEBUG: 2025-11-24 20:15:29,027:      pdf_renderer.py:  470: printSegment:  If updates cause issues?
+   DEBUG: 2025-11-24 20:15:29,027:      pdf_renderer.py:  470: printSegment: 17. COMPETITIVE DIFFERENTIATION
+   DEBUG: 2025-11-24 20:15:29,028:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:29,028:      pdf_renderer.py:  470: printSegment: Awaiting Gemini
+   DEBUG: 2025-11-24 20:15:29,029:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:29,029:      pdf_renderer.py:  470: printSegment: s strategic analysis
+   DEBUG: 2025-11-24 20:15:29,030:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:29,030:      pdf_renderer.py:  470: printSegment: vs. Traditional Services
+   DEBUG: 2025-11-24 20:15:29,031:      pdf_renderer.py:  470: printSegment: Consulting Firms (McKinsey, Bain):
+   DEBUG: 2025-11-24 20:15:29,031:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,031:      pdf_renderer.py:  470: printSegment: Differentiation: TBD
+   DEBUG: 2025-11-24 20:15:29,032:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,032:      pdf_renderer.py:  470: printSegment: Positioning: TBD
+   DEBUG: 2025-11-24 20:15:29,033:      pdf_renderer.py:  470: printSegment: Fractional Services (Upwork, Toptal):
+   DEBUG: 2025-11-24 20:15:29,033:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,034:      pdf_renderer.py:  470: printSegment: Differentiation: TBD
+   DEBUG: 2025-11-24 20:15:29,034:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,035:      pdf_renderer.py:  470: printSegment: Positioning: TBD
+   DEBUG: 2025-11-24 20:15:29,035:      pdf_renderer.py:  470: printSegment: Full-Time Hires:
+   DEBUG: 2025-11-24 20:15:29,036:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,036:      pdf_renderer.py:  470: printSegment: Differentiation: TBD
+   DEBUG: 2025-11-24 20:15:29,037:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,037:      pdf_renderer.py:  470: printSegment: Positioning: TBD
+   DEBUG: 2025-11-24 20:15:29,037:      pdf_renderer.py:  470: printSegment: vs. AI Tools
+   DEBUG: 2025-11-24 20:15:29,038:      pdf_renderer.py:  470: printSegment: ChatGPT Plus ($20/month):
+   DEBUG: 2025-11-24 20:15:29,038:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,039:      pdf_renderer.py:  470: printSegment: Differentiation: TBD (why pay 100x more?)
+   DEBUG: 2025-11-24 20:15:29,039:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,040:      pdf_renderer.py:  470: printSegment: Justification: Domain expertise, guaranteed outcomes, human oversight, continuous learning,
+   DEBUG: 2025-11-24 20:15:29,040:      pdf_renderer.py:  470: printSegment: integration, accountability?
+   DEBUG: 2025-11-24 20:15:29,041:      pdf_renderer.py:  470: printSegment: Jasper (Marketing AI, $49-125/month):
+   DEBUG: 2025-11-24 20:15:29,041:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,041:      pdf_renderer.py:  470: printSegment: Differentiation: TBD
+   DEBUG: 2025-11-24 20:15:29,042:      pdf_renderer.py:  470: printSegment: Custom AI Solutions ($10-50K build):
+   DEBUG: 2025-11-24 20:15:29,042:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,043:      pdf_renderer.py:  470: printSegment: Differentiation: TBD
+   DEBUG: 2025-11-24 20:15:29,043:      pdf_renderer.py:  470: printSegment: Unique Value Proposition
+   DEBUG: 2025-11-24 20:15:29,043:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:29,044:      pdf_renderer.py:  470: printSegment: AI Digital Coworker
+   DEBUG: 2025-11-24 20:15:29,044:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:29,044:      pdf_renderer.py:  470: printSegment:  Positioning:
+   DEBUG: 2025-11-24 20:15:29,045:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,045:      pdf_renderer.py:  470: printSegment: vs. 
+   DEBUG: 2025-11-24 20:15:29,045:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:29,046:      pdf_renderer.py:  470: printSegment: AI tool
+   DEBUG: 2025-11-24 20:15:29,046:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:29,047:      pdf_renderer.py:  470: printSegment:  (passive)?
+   DEBUG: 2025-11-24 20:15:29,047:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,047:      pdf_renderer.py:  470: printSegment: vs. 
+   DEBUG: 2025-11-24 20:15:29,048:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:29,048:      pdf_renderer.py:  470: printSegment: AI consultant
+   DEBUG: 2025-11-24 20:15:29,048:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:29,049:      pdf_renderer.py:  470: printSegment:  (transactional)?
+   DEBUG: 2025-11-24 20:15:29,049:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,049:      pdf_renderer.py:  470: printSegment: Core differentiator:
+   DEBUG: 2025-11-24 20:15:29,050:      pdf_renderer.py:  470: printSegment:  TBD (Orchestra infrastructure? Multi-AI collaboration? Human-AI hybrid?
+   DEBUG: 2025-11-24 20:15:29,051:      pdf_renderer.py:  470: printSegment: Accountability?)
+   DEBUG: 2025-11-24 20:15:29,051:      pdf_renderer.py:  470: printSegment: 18. RISK ASSESSMENT
+   DEBUG: 2025-11-24 20:15:29,052:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:29,052:      pdf_renderer.py:  470: printSegment: To be synthesized from team inputs
+   DEBUG: 2025-11-24 20:15:29,052:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:29,053:      pdf_renderer.py:  470: printSegment: Product/Service Risks
+   DEBUG: 2025-11-24 20:15:29,053:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:29,054:      pdf_renderer.py:  470: printSegment: Eidolon Error Risk:
+   DEBUG: 2025-11-24 20:15:29,054:      pdf_renderer.py:  470: printSegment:  Bad advice (especially FinBot financial guidance)
+   DEBUG: 2025-11-24 20:15:29,055:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,055:      pdf_renderer.py:  470: printSegment: Mitigation: TBD (human review? disclaimers? insurance?)
+   DEBUG: 2025-11-24 20:15:29,055:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:29,056:      pdf_renderer.py:  470: printSegment: Client Dissatisfaction:
+   DEBUG: 2025-11-24 20:15:29,056:      pdf_renderer.py:  470: printSegment:  Not seeing value quickly enough
+   DEBUG: 2025-11-24 20:15:29,057:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,057:      pdf_renderer.py:  470: printSegment: Mitigation: TBD (expectation setting? early wins? regular check-ins?)
+   DEBUG: 2025-11-24 20:15:29,058:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:29,058:      pdf_renderer.py:  470: printSegment: Customization Creep:
+   DEBUG: 2025-11-24 20:15:29,059:      pdf_renderer.py:  470: printSegment:  Every client wants bespoke solution
+   DEBUG: 2025-11-24 20:15:29,059:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,060:      pdf_renderer.py:  470: printSegment: Mitigation: TBD (clear scope? tiered customization? premium pricing?)
+   DEBUG: 2025-11-24 20:15:29,060:      pdf_renderer.py:  470: printSegment:  4 
+   DEBUG: 2025-11-24 20:15:29,060:      pdf_renderer.py:  470: printSegment: Quality Inconsistency:
+   DEBUG: 2025-11-24 20:15:29,061:      pdf_renderer.py:  470: printSegment:  Eidolon performance varies across clients
+   DEBUG: 2025-11-24 20:15:29,061:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,062:      pdf_renderer.py:  470: printSegment: Mitigation: TBD (QA processes? standardization? monitoring?)
+   DEBUG: 2025-11-24 20:15:29,062:      pdf_renderer.py:  470: printSegment: Operational Risks
+   DEBUG: 2025-11-24 20:15:29,063:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:29,063:      pdf_renderer.py:  470: printSegment: Scaling Bottleneck:
+   DEBUG: 2025-11-24 20:15:29,064:      pdf_renderer.py:  470: printSegment:  Team can
+   DEBUG: 2025-11-24 20:15:29,064:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:29,065:      pdf_renderer.py:  470: printSegment: t support multiple clients
+   DEBUG: 2025-11-24 20:15:29,065:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,066:      pdf_renderer.py:  470: printSegment: Mitigation: TBD (automation? hiring? waitlist?)
+   DEBUG: 2025-11-24 20:15:29,066:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:29,067:      pdf_renderer.py:  470: printSegment: Integration Failures:
+   DEBUG: 2025-11-24 20:15:29,067:      pdf_renderer.py:  470: printSegment:  Client
+   DEBUG: 2025-11-24 20:15:29,067:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:29,068:      pdf_renderer.py:  470: printSegment: s systems don
+   DEBUG: 2025-11-24 20:15:29,068:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:29,068:      pdf_renderer.py:  470: printSegment: t connect
+   DEBUG: 2025-11-24 20:15:29,069:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,069:      pdf_renderer.py:  470: printSegment: Mitigation: TBD (workarounds? manual processes? custom dev?)
+   DEBUG: 2025-11-24 20:15:29,070:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:29,070:      pdf_renderer.py:  470: printSegment: Churn Risk:
+   DEBUG: 2025-11-24 20:15:29,070:      pdf_renderer.py:  470: printSegment:  Clients leave after initial period
+   DEBUG: 2025-11-24 20:15:29,071:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,071:      pdf_renderer.py:  470: printSegment: Mitigation: TBD (value demonstration? lock-in? outcomes guarantee?)
+   DEBUG: 2025-11-24 20:15:29,072:      pdf_renderer.py:  470: printSegment: Technical Risks
+   DEBUG: 2025-11-24 20:15:29,072:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:29,072:      pdf_renderer.py:  470: printSegment: Awaiting Codex analysis
+   DEBUG: 2025-11-24 20:15:29,073:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:29,073:      pdf_renderer.py:  470: printSegment: Market Risks
+   DEBUG: 2025-11-24 20:15:29,074:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:29,074:      pdf_renderer.py:  470: printSegment: Market Education:
+   DEBUG: 2025-11-24 20:15:29,074:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:29,075:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:29,075:      pdf_renderer.py:  470: printSegment: AI Digital Coworker
+   DEBUG: 2025-11-24 20:15:29,075:      pdf_renderer.py:  470: printSegment: "
+   DEBUG: 2025-11-24 20:15:29,076:      pdf_renderer.py:  470: printSegment:  is new concept
+   DEBUG: 2025-11-24 20:15:29,076:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,077:      pdf_renderer.py:  470: printSegment: Mitigation: TBD (content marketing? case studies? demos?)
+   DEBUG: 2025-11-24 20:15:29,077:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:29,077:      pdf_renderer.py:  470: printSegment: Competitive Response:
+   DEBUG: 2025-11-24 20:15:29,078:      pdf_renderer.py:  470: printSegment:  Others copy model
+   DEBUG: 2025-11-24 20:15:29,078:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,079:      pdf_renderer.py:  470: printSegment: Mitigation: TBD (speed to market? IP protection? relationship lock-in?)
+   DEBUG: 2025-11-24 20:15:29,079:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:29,079:      pdf_renderer.py:  470: printSegment: AI Model Changes:
+   DEBUG: 2025-11-24 20:15:29,080:      pdf_renderer.py:  470: printSegment:  OpenAI/Anthropic change pricing/capabilities
+   DEBUG: 2025-11-24 20:15:29,080:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,081:      pdf_renderer.py:  470: printSegment: Mitigation: TBD (multi-model strategy? pricing flexibility?)
+   DEBUG: 2025-11-24 20:15:29,081:      pdf_renderer.py:  470: printSegment: 19. BUDGET 
+   DEBUG: 2025-11-24 20:15:29,082:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:29,082:      pdf_renderer.py:  470: printSegment:  UNIT ECONOMICS
+   DEBUG: 2025-11-24 20:15:29,083:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:29,083:      pdf_renderer.py:  470: printSegment: Awaiting Copilot
+   DEBUG: 2025-11-24 20:15:29,083:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:29,084:      pdf_renderer.py:  470: printSegment: s practical cost analysis
+   DEBUG: 2025-11-24 20:15:29,084:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:29,085:      pdf_renderer.py:  470: printSegment: Cost Structure per Eidolon Client (Monthly)
+   DEBUG: 2025-11-24 20:15:29,085:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,085:      pdf_renderer.py:  470: printSegment: Infrastructure:
+   DEBUG: 2025-11-24 20:15:29,086:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:29,086:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,087:      pdf_renderer.py:  470: printSegment: AI API costs (Claude, Gemini, OpenAI): TBD
+   DEBUG: 2025-11-24 20:15:29,087:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,088:      pdf_renderer.py:  470: printSegment: Hosting and compute: TBD
+   DEBUG: 2025-11-24 20:15:29,088:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,088:      pdf_renderer.py:  470: printSegment: Storage: TBD
+   DEBUG: 2025-11-24 20:15:29,089:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,089:      pdf_renderer.py:  470: printSegment: Human Time:
+   DEBUG: 2025-11-24 20:15:29,090:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:29,090:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,090:      pdf_renderer.py:  470: printSegment: Onboarding (amortized): TBD hours × €X/hour
+   DEBUG: 2025-11-24 20:15:29,091:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,091:      pdf_renderer.py:  470: printSegment: Ongoing management: TBD hours × €X/hour
+   DEBUG: 2025-11-24 20:15:29,092:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,092:      pdf_renderer.py:  470: printSegment: QA and oversight: TBD hours × €X/hour
+   DEBUG: 2025-11-24 20:15:29,093:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,093:      pdf_renderer.py:  470: printSegment: Client support: TBD hours × €X/hour
+   DEBUG: 2025-11-24 20:15:29,093:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,094:      pdf_renderer.py:  470: printSegment: Integration Maintenance:
+   DEBUG: 2025-11-24 20:15:29,094:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:29,095:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,095:      pdf_renderer.py:  470: printSegment: Other:
+   DEBUG: 2025-11-24 20:15:29,096:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:29,096:      pdf_renderer.py:  470: printSegment: Total Monthly Cost per Eidolon:
+   DEBUG: 2025-11-24 20:15:29,097:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:29,097:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:29,097:      pdf_renderer.py:  470: printSegment: Gross Margin at $2K/month:
+   DEBUG: 2025-11-24 20:15:29,098:      pdf_renderer.py:  470: printSegment:  TBD%
+   DEBUG: 2025-11-24 20:15:29,098:      pdf_renderer.py:  470: printSegment: Break-Even Analysis
+   DEBUG: 2025-11-24 20:15:29,099:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,099:      pdf_renderer.py:  470: printSegment: Fixed Costs:
+   DEBUG: 2025-11-24 20:15:29,100:      pdf_renderer.py:  470: printSegment:  Team salaries, infrastructure baseline - TBD
+   DEBUG: 2025-11-24 20:15:29,100:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,101:      pdf_renderer.py:  470: printSegment: Variable Costs per Client:
+   DEBUG: 2025-11-24 20:15:29,102:      pdf_renderer.py:  470: printSegment:  TBD
+   DEBUG: 2025-11-24 20:15:29,102:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,103:      pdf_renderer.py:  470: printSegment: Break-Even Point:
+   DEBUG: 2025-11-24 20:15:29,103:      pdf_renderer.py:  470: printSegment:  TBD clients
+   DEBUG: 2025-11-24 20:15:29,104:      pdf_renderer.py:  470: printSegment: Scaling Economics
+   DEBUG: 2025-11-24 20:15:29,105:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,106:      pdf_renderer.py:  470: printSegment: 10 clients:
+   DEBUG: 2025-11-24 20:15:29,107:      pdf_renderer.py:  470: printSegment:  Cost structure TBD, margin TBD%
+   DEBUG: 2025-11-24 20:15:29,107:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,108:      pdf_renderer.py:  470: printSegment: 25 clients:
+   DEBUG: 2025-11-24 20:15:29,109:      pdf_renderer.py:  470: printSegment:  Cost structure TBD, margin TBD%
+   DEBUG: 2025-11-24 20:15:29,109:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,110:      pdf_renderer.py:  470: printSegment: 50 clients:
+   DEBUG: 2025-11-24 20:15:29,111:      pdf_renderer.py:  470: printSegment:  Cost structure TBD, margin TBD%
+   DEBUG: 2025-11-24 20:15:29,112:      pdf_renderer.py:  470: printSegment: 20. OPEN QUESTIONS FOR CHRISTIAN/JANUS
+   DEBUG: 2025-11-24 20:15:29,113:      pdf_renderer.py:  470: printSegment: [
+   DEBUG: 2025-11-24 20:15:29,114:      pdf_renderer.py:  470: printSegment: To be identified from team inputs
+   DEBUG: 2025-11-24 20:15:29,115:      pdf_renderer.py:  470: printSegment: ]
+   DEBUG: 2025-11-24 20:15:29,115:      pdf_renderer.py:  470: printSegment: Strategic Decisions
+   DEBUG: 2025-11-24 20:15:29,116:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:29,116:      pdf_renderer.py:  470: printSegment: Launch Strategy:
+   DEBUG: 2025-11-24 20:15:29,117:      pdf_renderer.py:  470: printSegment:  All 4 Eidolons or start with FinBot only?
+   DEBUG: 2025-11-24 20:15:29,118:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:29,119:      pdf_renderer.py:  470: printSegment: Customization Philosophy:
+   DEBUG: 2025-11-24 20:15:29,120:      pdf_renderer.py:  470: printSegment:  How bespoke vs. standardized?
+   DEBUG: 2025-11-24 20:15:29,121:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:29,121:      pdf_renderer.py:  470: printSegment: Pricing:
+   DEBUG: 2025-11-24 20:15:29,122:      pdf_renderer.py:  470: printSegment:  Uniform $2K or tiered by Eidolon value?
+   DEBUG: 2025-11-24 20:15:29,124:      pdf_renderer.py:  470: printSegment: Operational Decisions
+   DEBUG: 2025-11-24 20:15:29,124:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:29,126:      pdf_renderer.py:  470: printSegment: Team Roles:
+   DEBUG: 2025-11-24 20:15:29,127:      pdf_renderer.py:  470: printSegment:  Who owns onboarding, monitoring, client success for each Eidolon?
+   DEBUG: 2025-11-24 20:15:29,127:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:29,128:      pdf_renderer.py:  470: printSegment: Quality Assurance:
+   DEBUG: 2025-11-24 20:15:29,129:      pdf_renderer.py:  470: printSegment:  Who reviews Eidolon outputs? What
+   DEBUG: 2025-11-24 20:15:29,129:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:29,131:      pdf_renderer.py:  470: printSegment: s the process?
+   DEBUG: 2025-11-24 20:15:29,131:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:29,132:      pdf_renderer.py:  470: printSegment: Integration Priority:
+   DEBUG: 2025-11-24 20:15:29,134:      pdf_renderer.py:  470: printSegment:  Which 3-5 integrations are must-haves for FinBot MVP?
+   DEBUG: 2025-11-24 20:15:29,135:      pdf_renderer.py:  470: printSegment: Technical Decisions
+   DEBUG: 2025-11-24 20:15:29,136:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:29,137:      pdf_renderer.py:  470: printSegment: Architecture Choice:
+   DEBUG: 2025-11-24 20:15:29,138:      pdf_renderer.py:  470: printSegment:  Shared Orchestra or dedicated instances per client?
+   DEBUG: 2025-11-24 20:15:29,139:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:29,140:      pdf_renderer.py:  470: printSegment: Data Isolation:
+   DEBUG: 2025-11-24 20:15:29,142:      pdf_renderer.py:  470: printSegment:  Technical approach to client data separation?
+   DEBUG: 2025-11-24 20:15:29,143:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:29,144:      pdf_renderer.py:  470: printSegment: Development Timeline:
+   DEBUG: 2025-11-24 20:15:29,145:      pdf_renderer.py:  470: printSegment:  Is 4-6 weeks realistic for FinBot MVP?
+   DEBUG: 2025-11-24 20:15:29,146:      pdf_renderer.py:  470: printSegment: Business Decisions
+   DEBUG: 2025-11-24 20:15:29,147:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:29,149:      pdf_renderer.py:  470: printSegment: Janus
+   DEBUG: 2025-11-24 20:15:29,150:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2025-11-24 20:15:29,152:      pdf_renderer.py:  470: printSegment: s Role:
+   DEBUG: 2025-11-24 20:15:29,155:      pdf_renderer.py:  470: printSegment:  How much time can Janus commit to FinBot development and client oversight?
+   DEBUG: 2025-11-24 20:15:29,158:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:29,160:      pdf_renderer.py:  470: printSegment: Insurance:
+   DEBUG: 2025-11-24 20:15:29,161:      pdf_renderer.py:  470: printSegment:  Professional indemnity for AI advice (especially FinBot)?
+   DEBUG: 2025-11-24 20:15:29,162:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:29,163:      pdf_renderer.py:  470: printSegment: Liability:
+   DEBUG: 2025-11-24 20:15:29,164:      pdf_renderer.py:  470: printSegment:  How do we limit risk if Eidolon gives bad advice?
+   DEBUG: 2025-11-24 20:15:29,165:      pdf_renderer.py:  470: printSegment: Additional questions from team: TBD
+   DEBUG: 2025-11-24 20:15:29,166:      pdf_renderer.py:  470: printSegment: 21. NEXT STEPS
+   DEBUG: 2025-11-24 20:15:29,167:      pdf_renderer.py:  470: printSegment: Immediate Actions:
+   DEBUG: 2025-11-24 20:15:29,168:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,169:      pdf_renderer.py:  470: printSegment: TBD
+   DEBUG: 2025-11-24 20:15:29,170:      pdf_renderer.py:  470: printSegment: Dependencies:
+   DEBUG: 2025-11-24 20:15:29,171:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,173:      pdf_renderer.py:  470: printSegment: Section 1 (Legal): Legal structure, contracts ready
+   DEBUG: 2025-11-24 20:15:29,174:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,175:      pdf_renderer.py:  470: printSegment: Section 2 (Brand): Eidolon icons and messaging
+   DEBUG: 2025-11-24 20:15:29,176:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,178:      pdf_renderer.py:  470: printSegment: Section 3 (Website): Eidolon service pages
+   DEBUG: 2025-11-24 20:15:29,179:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,180:      pdf_renderer.py:  470: printSegment: Section 5 (Sales): First client pipeline
+   DEBUG: 2025-11-24 20:15:29,182:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,183:      pdf_renderer.py:  470: printSegment: Section 6 (Financial): Pricing validation
+   DEBUG: 2025-11-24 20:15:29,185:      pdf_renderer.py:  470: printSegment: Owner Assignments:
+   DEBUG: 2025-11-24 20:15:29,186:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,187:      pdf_renderer.py:  470: printSegment: TBD
+   DEBUG: 2025-11-24 20:15:29,190:      pdf_renderer.py:  470: printSegment: 22. SYNTHESIS STATUS 
+   DEBUG: 2025-11-24 20:15:29,191:      pdf_renderer.py:  470: printSegment: &
+   DEBUG: 2025-11-24 20:15:29,191:      pdf_renderer.py:  470: printSegment:  UPDATES
+   DEBUG: 2025-11-24 20:15:29,192:      pdf_renderer.py:  470: printSegment: Current Status:
+   DEBUG: 2025-11-24 20:15:29,192:      pdf_renderer.py:  470: printSegment:  PRELIMINARY (Awaiting team inputs)
+   DEBUG: 2025-11-24 20:15:29,193:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:29,194:      pdf_renderer.py:  470: printSegment: Completion:
+   DEBUG: 2025-11-24 20:15:29,194:      pdf_renderer.py:  470: printSegment:  5% (Framework ready)
+   DEBUG: 2025-11-24 20:15:29,194:      pdf_renderer.py:  470: printSegment: Pending Inputs:
+   DEBUG: 2025-11-24 20:15:29,195:      pdf_renderer.py:  470: printSegment:  1 
+   DEBUG: 2025-11-24 20:15:29,195:      pdf_renderer.py:  470: printSegment: Gemini Strategic Product Positioning (sig
+   DEBUG: 2025-11-24 20:15:29,196:      pdf_renderer.py:  470: printSegment: _
+   DEBUG: 2025-11-24 20:15:29,196:      pdf_renderer.py:  470: printSegment: d84f1584)
+   DEBUG: 2025-11-24 20:15:29,196:      pdf_renderer.py:  470: printSegment:  ⏳
+   DEBUG: 2025-11-24 20:15:29,197:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,198:      pdf_renderer.py:  470: printSegment: Launch strategy recommendation (all 4 vs. 1-2?)
+   DEBUG: 2025-11-24 20:15:29,198:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,199:      pdf_renderer.py:  470: printSegment: Eidolon value propositions (detailed per Eidolon)
+   DEBUG: 2025-11-24 20:15:29,199:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,200:      pdf_renderer.py:  470: printSegment: Buyer segmentation and go-to-market implications
+   DEBUG: 2025-11-24 20:15:29,200:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,201:      pdf_renderer.py:  470: printSegment: Customization vs. standardization philosophy
+   DEBUG: 2025-11-24 20:15:29,201:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,201:      pdf_renderer.py:  470: printSegment: Demonstration and proof strategy
+   DEBUG: 2025-11-24 20:15:29,202:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,202:      pdf_renderer.py:  470: printSegment: Pricing recommendations (tiered, bundles, introductory)
+   DEBUG: 2025-11-24 20:15:29,203:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,203:      pdf_renderer.py:  470: printSegment: Performance metrics framework
+   DEBUG: 2025-11-24 20:15:29,204:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,204:      pdf_renderer.py:  470: printSegment: Competitive differentiation strategy
+   DEBUG: 2025-11-24 20:15:29,205:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,205:      pdf_renderer.py:  470: printSegment: Sent:
+   DEBUG: 2025-11-24 20:15:29,206:      pdf_renderer.py:  470: printSegment:  Nov 21, 08:23 UTC (HIGH priority)
+   DEBUG: 2025-11-24 20:15:29,206:      pdf_renderer.py:  470: printSegment:  2 
+   DEBUG: 2025-11-24 20:15:29,206:      pdf_renderer.py:  470: printSegment: Copilot Practical Service Delivery (sig
+   DEBUG: 2025-11-24 20:15:29,207:      pdf_renderer.py:  470: printSegment: _
+   DEBUG: 2025-11-24 20:15:29,207:      pdf_renderer.py:  470: printSegment: a16dbd4f)
+   DEBUG: 2025-11-24 20:15:29,208:      pdf_renderer.py:  470: printSegment:  ⏳
+   DEBUG: 2025-11-24 20:15:29,208:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,208:      pdf_renderer.py:  470: printSegment: Eidolon service catalog (website-ready specifications)
+   DEBUG: 2025-11-24 20:15:29,209:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,209:      pdf_renderer.py:  470: printSegment: Client onboarding workflow (week-by-week)
+   DEBUG: 2025-11-24 20:15:29,210:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,210:      pdf_renderer.py:  470: printSegment: Operations management and support processes
+   DEBUG: 2025-11-24 20:15:29,211:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,211:      pdf_renderer.py:  470: printSegment: Documentation and training materials needed
+   DEBUG: 2025-11-24 20:15:29,212:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,212:      pdf_renderer.py:  470: printSegment: Deployment timeline and phasing (FinBot → multi-Eidolon)
+   DEBUG: 2025-11-24 20:15:29,213:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,213:      pdf_renderer.py:  470: printSegment: Integration requirements detail
+   DEBUG: 2025-11-24 20:15:29,214:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,214:      pdf_renderer.py:  470: printSegment: Performance reporting templates
+   DEBUG: 2025-11-24 20:15:29,215:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,215:      pdf_renderer.py:  470: printSegment: Customization playbook
+   DEBUG: 2025-11-24 20:15:29,216:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,216:      pdf_renderer.py:  470: printSegment: Risk mitigation strategies
+   DEBUG: 2025-11-24 20:15:29,216:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,217:      pdf_renderer.py:  470: printSegment: Budget and unit economics analysis
+   DEBUG: 2025-11-24 20:15:29,217:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,218:      pdf_renderer.py:  470: printSegment: Sent:
+   DEBUG: 2025-11-24 20:15:29,218:      pdf_renderer.py:  470: printSegment:  Nov 21, 08:24 UTC (HIGH priority)
+   DEBUG: 2025-11-24 20:15:29,219:      pdf_renderer.py:  470: printSegment:  3 
+   DEBUG: 2025-11-24 20:15:29,219:      pdf_renderer.py:  470: printSegment: Codex Technical Architecture (sig
+   DEBUG: 2025-11-24 20:15:29,220:      pdf_renderer.py:  470: printSegment: _
+   DEBUG: 2025-11-24 20:15:29,220:      pdf_renderer.py:  470: printSegment: 7080e1a5)
+   DEBUG: 2025-11-24 20:15:29,221:      pdf_renderer.py:  470: printSegment:  ⏳
+   DEBUG: 2025-11-24 20:15:29,221:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,222:      pdf_renderer.py:  470: printSegment: Eidolon architecture design (what IS an Eidolon technically?)
+   DEBUG: 2025-11-24 20:15:29,222:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,223:      pdf_renderer.py:  470: printSegment: Multi-AI coordination mechanism
+   DEBUG: 2025-11-24 20:15:29,223:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,224:      pdf_renderer.py:  470: printSegment: Client data isolation and security
+   DEBUG: 2025-11-24 20:15:29,224:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,225:      pdf_renderer.py:  470: printSegment: Integration architecture patterns
+   DEBUG: 2025-11-24 20:15:29,225:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,226:      pdf_renderer.py:  470: printSegment: Deployment workflow automation
+   DEBUG: 2025-11-24 20:15:29,226:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,227:      pdf_renderer.py:  470: printSegment: Performance and scalability strategy
+   DEBUG: 2025-11-24 20:15:29,228:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,228:      pdf_renderer.py:  470: printSegment: Monitoring and observability
+   DEBUG: 2025-11-24 20:15:29,228:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,229:      pdf_renderer.py:  470: printSegment: Continuous improvement system
+   DEBUG: 2025-11-24 20:15:29,230:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,230:      pdf_renderer.py:  470: printSegment: Disaster recovery and business continuity
+   DEBUG: 2025-11-24 20:15:29,231:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,231:      pdf_renderer.py:  470: printSegment: Development roadmap (Phase 0-2)
+   DEBUG: 2025-11-24 20:15:29,232:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,233:      pdf_renderer.py:  470: printSegment: Sent:
+   DEBUG: 2025-11-24 20:15:29,233:      pdf_renderer.py:  470: printSegment:  Nov 21, 08:25 UTC (MEDIUM/OPTIONAL priority)
+   DEBUG: 2025-11-24 20:15:29,234:      pdf_renderer.py:  470: printSegment: Update Plan:
+   DEBUG: 2025-11-24 20:15:29,235:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,236:      pdf_renderer.py:  470: printSegment: When Gemini responds: Integrate strategic analysis into Sections 2, 6, 9, 10, 17
+   DEBUG: 2025-11-24 20:15:29,236:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,237:      pdf_renderer.py:  470: printSegment: When Copilot responds: Integrate practical execution into Sections 2-5, 7, 12-15, 19
+   DEBUG: 2025-11-24 20:15:29,238:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,240:      pdf_renderer.py:  470: printSegment: When Codex responds (optional): Integrate technical insights into Section 11, 13
+   DEBUG: 2025-11-24 20:15:29,241:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,242:      pdf_renderer.py:  470: printSegment: Final synthesis version will consolidate all perspectives
+   DEBUG: 2025-11-24 20:15:29,243:      pdf_renderer.py:  470: printSegment: Document Updates:
+   DEBUG: 2025-11-24 20:15:29,243:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,244:      pdf_renderer.py:  470: printSegment: Version 0.1 (Framework): 2025-11-21 08:28 UTC (Structure created)
+   DEBUG: 2025-11-24 20:15:29,246:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,247:      pdf_renderer.py:  470: printSegment: Version 1.0 (Expected): +Gemini input (strategic)
+   DEBUG: 2025-11-24 20:15:29,248:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,249:      pdf_renderer.py:  470: printSegment: Version 1.1 (Expected): +Copilot input (practical)
+   DEBUG: 2025-11-24 20:15:29,252:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,253:      pdf_renderer.py:  470: printSegment: Version 1.2 (Expected): +Codex input (technical, optional)
+   DEBUG: 2025-11-24 20:15:29,254:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,256:      pdf_renderer.py:  470: printSegment: Version 2.0 (Final): All inputs synthesized, ready for decision
+   DEBUG: 2025-11-24 20:15:29,258:      pdf_renderer.py:  470: printSegment: 23. REFERENCES
+   DEBUG: 2025-11-24 20:15:29,260:      pdf_renderer.py:  470: printSegment: Source Documents:
+   DEBUG: 2025-11-24 20:15:29,261:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,262:      pdf_renderer.py:  470: printSegment: Master Plan: 
+   DEBUG: 2025-11-24 20:15:29,264:      pdf_renderer.py:  470: printSegment: projects/meet-mike/planning/master-plan-brainstorming.md
+   DEBUG: 2025-11-24 20:15:29,266:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,269:      pdf_renderer.py:  470: printSegment: Business Plan: 
+   DEBUG: 2025-11-24 20:15:29,270:      pdf_renderer.py:  470: printSegment: projects/meet-mike/planning/business-plan-launch.md
+   DEBUG: 2025-11-24 20:15:29,271:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2025-11-24 20:15:29,272:      pdf_renderer.py:  470: printSegment: (Eidolon details, Client 1 FinBot)
+   DEBUG: 2025-11-24 20:15:29,273:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,274:      pdf_renderer.py:  470: printSegment: Meet Mike Concept: 
+   DEBUG: 2025-11-24 20:15:29,275:      pdf_renderer.py:  470: printSegment: ideas/ChatGPT-chats/ChatGPT-Mike and Lilly.md
+   DEBUG: 2025-11-24 20:15:29,277:      pdf_renderer.py:  470: printSegment:  (original
+   DEBUG: 2025-11-24 20:15:29,277:      pdf_renderer.py:  470: printSegment: ecosystem design)
+   DEBUG: 2025-11-24 20:15:29,278:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,279:      pdf_renderer.py:  470: printSegment: Section 1 Synthesis: 
+   DEBUG: 2025-11-24 20:15:29,281:      pdf_renderer.py:  470: printSegment: projects/meet-mike/brainstorming/section-1-legal-structure/synthesis.md
+   DEBUG: 2025-11-24 20:15:29,283:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,284:      pdf_renderer.py:  470: printSegment: Section 2 Synthesis: 
+   DEBUG: 2025-11-24 20:15:29,285:      pdf_renderer.py:  470: printSegment: projects/meet-mike/brainstorming/section-2-brand-identity/synthesis.md
+   DEBUG: 2025-11-24 20:15:29,286:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,286:      pdf_renderer.py:  470: printSegment: Section 3 Synthesis: 
+   DEBUG: 2025-11-24 20:15:29,287:      pdf_renderer.py:  470: printSegment: projects/meet-mike/brainstorming/section-3-website-presence/synthesis.md
+   DEBUG: 2025-11-24 20:15:29,288:      pdf_renderer.py:  470: printSegment: Pending Signals:
+   DEBUG: 2025-11-24 20:15:29,288:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,289:      pdf_renderer.py:  470: printSegment: Gemini BRAINSTORM: 
+   DEBUG: 2025-11-24 20:15:29,291:      pdf_renderer.py:  470: printSegment: AI_Agents/signals/20251121-082316_BRAINSTORM-007_Claude_to_Gemini.md
+   DEBUG: 2025-11-24 20:15:29,292:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,294:      pdf_renderer.py:  470: printSegment: Copilot BRAINSTORM: 
+   DEBUG: 2025-11-24 20:15:29,295:      pdf_renderer.py:  470: printSegment: AI_Agents/signals/20251121-082427_BRAINSTORM-008_Claude_to_Copilot.md
+   DEBUG: 2025-11-24 20:15:29,296:      pdf_renderer.py:  470: printSegment: l
+   DEBUG: 2025-11-24 20:15:29,297:      pdf_renderer.py:  470: printSegment: Codex BRAINSTORM: 
+   DEBUG: 2025-11-24 20:15:29,299:      pdf_renderer.py:  470: printSegment: AI_Agents/signals/20251121-082538_BRAINSTORM-009_Claude_to_Codex.md
+   DEBUG: 2025-11-24 20:15:29,301:      pdf_renderer.py:  470: printSegment: Document prepared for:
+   DEBUG: 2025-11-24 20:15:29,303:      pdf_renderer.py:  470: printSegment:  Janus presentation (Nov 21, 2025)
+   DEBUG: 2025-11-24 20:15:29,304:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:29,305:      pdf_renderer.py:  470: printSegment: Synthesis lead:
+   DEBUG: 2025-11-24 20:15:29,307:      pdf_renderer.py:  470: printSegment:  Claude (Team Lead)
+   DEBUG: 2025-11-24 20:15:29,308:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2025-11-24 20:15:29,309:      pdf_renderer.py:  470: printSegment: Framework
+   DEBUG: 2025-11-24 20:15:29,311:      pdf_renderer.py:  470: printSegment: created:
+   DEBUG: 2025-11-24 20:15:29,312:      pdf_renderer.py:  470: printSegment:  2025-11-21 08:28 UTC
+   DEBUG: 2025-11-24 20:15:29,313:      pdf_renderer.py:   53: 0, [1, 'Meet Mike Section 4: Eidolon Service Offerings - SYNTHESIS', 1, 68.0]
+   DEBUG: 2025-11-24 20:15:29,314:      pdf_renderer.py:   53: 1, [2, 'EXECUTIVE SUMMARY', 1, 214.0]
+   DEBUG: 2025-11-24 20:15:29,314:      pdf_renderer.py:   53: 2, [2, '1. THE 4 EIDOLONS: OVERVIEW', 1, 427.6]
+   DEBUG: 2025-11-24 20:15:29,314:      pdf_renderer.py:   53: 3, [3, 'Context', 1, 460.8]
+   DEBUG: 2025-11-24 20:15:29,315:      pdf_renderer.py:   53: 4, [3, 'Strategic Question', 1, 585.6]
+   DEBUG: 2025-11-24 20:15:29,315:      pdf_renderer.py:   53: 5, [2, '2. FINBOT: FINANCIAL STRATEGY ', 1, 662.8]
+   DEBUG: 2025-11-24 20:15:29,315:      pdf_renderer.py:   53: 6, [3, 'Value Proposition', 2, 72.0]
+   DEBUG: 2025-11-24 20:15:29,315:      pdf_renderer.py:   53: 7, [3, 'Service Catalog (Website-Ready)', 2, 184.8]
+   DEBUG: 2025-11-24 20:15:29,316:      pdf_renderer.py:   53: 8, [3, 'Pricing', 2, 357.6]
+   DEBUG: 2025-11-24 20:15:29,316:      pdf_renderer.py:   53: 9, [3, 'Onboarding Workflow', 2, 482.4]
+   DEBUG: 2025-11-24 20:15:29,316:      pdf_renderer.py:   53: 10, [3, 'Performance Reporting', 2, 571.1999999999999]
+   DEBUG: 2025-11-24 20:15:29,316:      pdf_renderer.py:   53: 11, [3, 'Technical Architecture', 2, 689.9999999999999]
+   DEBUG: 2025-11-24 20:15:29,317:      pdf_renderer.py:   53: 12, [2, '3. BRANDBOT: MARKETING ', 3, 170.8]
+   DEBUG: 2025-11-24 20:15:29,317:      pdf_renderer.py:   53: 13, [3, 'Value Proposition', 3, 222.00000000000003]
+   DEBUG: 2025-11-24 20:15:29,317:      pdf_renderer.py:   53: 14, [3, 'Service Catalog (Website-Ready)', 3, 346.8]
+   DEBUG: 2025-11-24 20:15:29,317:      pdf_renderer.py:   53: 15, [3, 'Pricing ', 3, 579.6]
+   DEBUG: 2025-11-24 20:15:29,317:      pdf_renderer.py:   53: 16, [3, 'Performance Reporting', 3, 632.4]
+   DEBUG: 2025-11-24 20:15:29,317:      pdf_renderer.py:   53: 17, [3, 'Technical Architecture', 3, 679.1999999999999]
+   DEBUG: 2025-11-24 20:15:29,317:      pdf_renderer.py:   53: 18, [2, '4. LEADGEN AI: SALES PIPELINE ', 4, 98.8]
+   DEBUG: 2025-11-24 20:15:29,317:      pdf_renderer.py:   53: 19, [3, 'Value Proposition', 4, 150.0]
+   DEBUG: 2025-11-24 20:15:29,317:      pdf_renderer.py:   53: 20, [3, 'Service Catalog (Website-Ready)', 4, 274.79999999999995]
+   DEBUG: 2025-11-24 20:15:29,317:      pdf_renderer.py:   53: 21, [3, 'Pricing ', 4, 507.5999999999999]
+   DEBUG: 2025-11-24 20:15:29,317:      pdf_renderer.py:   53: 22, [3, 'Performance Reporting', 4, 560.3999999999999]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 23, [3, 'Technical Architecture', 4, 607.1999999999998]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 24, [2, '5. SUPPORTBOT: CUSTOMER SUCCESS ', 4, 666.3999999999997]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 25, [3, 'Value Proposition', 5, 72.0]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 26, [3, 'Service Catalog (Website-Ready)', 5, 196.8]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 27, [3, 'Pricing ', 5, 429.6]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 28, [3, 'Performance Reporting', 5, 482.4]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 29, [3, 'Technical Architecture', 5, 529.1999999999999]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 30, [2, '6. BUYER SEGMENTATION ', 5, 588.3999999999999]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 31, [3, 'By Persona', 5, 639.5999999999998]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 32, [3, 'Go-to-Market Implications', 6, 356.4]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 33, [2, '7. CUSTOMIZATION VS. STANDARDIZATION PHILOSOPHY', 6, 463.59999999999997]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 34, [3, 'Spectrum Options', 6, 514.8]
+   DEBUG: 2025-11-24 20:15:29,318:      pdf_renderer.py:   53: 35, [3, 'Recommendation', 6, 591.5999999999999]
+   DEBUG: 2025-11-24 20:15:29,319:      pdf_renderer.py:   53: 36, [3, 'Per-Eidolon Customization Needs', 6, 638.3999999999999]
+   DEBUG: 2025-11-24 20:15:29,319:      pdf_renderer.py:   53: 37, [3, 'Customization Levels ', 7, 72.0]
+   DEBUG: 2025-11-24 20:15:29,319:      pdf_renderer.py:   53: 38, [2, '8. EIDOLON DEMONSTRATION STRATEGY', 7, 155.20000000000002]
+   DEBUG: 2025-11-24 20:15:29,319:      pdf_renderer.py:   53: 39, [3, 'Challenge', 7, 206.40000000000003]
+   DEBUG: 2025-11-24 20:15:29,319:      pdf_renderer.py:   53: 40, [3, 'Demonstration Options', 7, 253.20000000000005]
+   DEBUG: 2025-11-24 20:15:29,319:      pdf_renderer.py:   53: 41, [3, 'Recommendations per Eidolon', 7, 354.0]
+   DEBUG: 2025-11-24 20:15:29,319:      pdf_renderer.py:   53: 42, [3, 'Website Integration', 7, 442.79999999999995]
+   DEBUG: 2025-11-24 20:15:29,319:      pdf_renderer.py:   53: 43, [2, '9. PRICING STRATEGY', 7, 549.9999999999999]
+   DEBUG: 2025-11-24 20:15:29,319:      pdf_renderer.py:   53: 44, [3, 'Current Positioning', 7, 601.1999999999998]
+   DEBUG: 2025-11-24 20:15:29,319:      pdf_renderer.py:   53: 45, [3, 'Questions to Address', 7, 665.9999999999998]
+   DEBUG: 2025-11-24 20:15:29,319:      pdf_renderer.py:   53: 46, [3, 'Competitive Positioning', 8, 200.4]
+   DEBUG: 2025-11-24 20:15:29,320:      pdf_renderer.py:   53: 47, [2, '10. PERFORMANCE METRICS ', 8, 415.6]
+   DEBUG: 2025-11-24 20:15:29,320:      pdf_renderer.py:   53: 48, [3, 'Per-Eidolon Metrics', 8, 466.8]
+   DEBUG: 2025-11-24 20:15:29,320:      pdf_renderer.py:   53: 49, [3, 'Client Reporting Framework', 9, 218.4]
+   DEBUG: 2025-11-24 20:15:29,320:      pdf_renderer.py:   53: 50, [3, 'Internal Performance Monitoring', 9, 265.2]
+   DEBUG: 2025-11-24 20:15:29,320:      pdf_renderer.py:   53: 51, [2, '11. EIDOLON TECHNICAL ARCHITECTURE', 9, 396.4]
+   DEBUG: 2025-11-24 20:15:29,320:      pdf_renderer.py:   53: 52, [3, 'Fundamental Questions', 9, 447.59999999999997]
+   DEBUG: 2025-11-24 20:15:29,320:      pdf_renderer.py:   53: 53, [3, 'Technical Implementation', 9, 668.4]
+   DEBUG: 2025-11-24 20:15:29,320:      pdf_renderer.py:   53: 54, [3, 'Development Roadmap', 10, 116.4]
+   DEBUG: 2025-11-24 20:15:29,321:      pdf_renderer.py:   53: 55, [2, '12. CLIENT ONBOARDING ', 10, 319.6]
+   DEBUG: 2025-11-24 20:15:29,321:      pdf_renderer.py:   53: 56, [3, 'Standard Onboarding Workflow', 10, 370.8]
+   DEBUG: 2025-11-24 20:15:29,321:      pdf_renderer.py:   53: 57, [3, 'Daily Operations', 11, 72.0]
+   DEBUG: 2025-11-24 20:15:29,321:      pdf_renderer.py:   53: 58, [3, 'Team Roles', 11, 172.8]
+   DEBUG: 2025-11-24 20:15:29,322:      pdf_renderer.py:   53: 59, [2, '13. INTEGRATION REQUIREMENTS', 11, 274.00000000000006]
+   DEBUG: 2025-11-24 20:15:29,322:      pdf_renderer.py:   53: 60, [3, 'FinBot Integrations', 11, 325.20000000000005]
+   DEBUG: 2025-11-24 20:15:29,322:      pdf_renderer.py:   53: 61, [3, 'BrandBot Integrations', 11, 426.0]
+   DEBUG: 2025-11-24 20:15:29,322:      pdf_renderer.py:   53: 62, [3, 'LeadGen Integrations', 11, 478.79999999999995]
+   DEBUG: 2025-11-24 20:15:29,322:      pdf_renderer.py:   53: 63, [3, 'SupportBot Integrations', 11, 531.5999999999999]
+   DEBUG: 2025-11-24 20:15:29,323:      pdf_renderer.py:   53: 64, [3, 'Integration Strategy', 11, 584.3999999999999]
+   DEBUG: 2025-11-24 20:15:29,323:      pdf_renderer.py:   53: 65, [2, '14. DOCUMENTATION ', 11, 685.5999999999998]
+   DEBUG: 2025-11-24 20:15:29,323:      pdf_renderer.py:   53: 66, [3, 'For Clients', 12, 98.4]
+   DEBUG: 2025-11-24 20:15:29,323:      pdf_renderer.py:   53: 67, [3, 'For Internal Team', 12, 199.20000000000002]
+   DEBUG: 2025-11-24 20:15:29,323:      pdf_renderer.py:   53: 68, [3, 'Timeline', 12, 300.0]
+   DEBUG: 2025-11-24 20:15:29,323:      pdf_renderer.py:   53: 69, [2, '15. DEPLOYMENT TIMELINE ', 12, 377.2]
+   DEBUG: 2025-11-24 20:15:29,323:      pdf_renderer.py:   53: 70, [3, 'Phase 0 (Week 1-4): FinBot MVP Preparation', 12, 428.4]
+   DEBUG: 2025-11-24 20:15:29,323:      pdf_renderer.py:   53: 71, [3, 'Phase 1 (Month 2-7): FinBot Mastery', 12, 517.1999999999999]
+   DEBUG: 2025-11-24 20:15:29,323:      pdf_renderer.py:   53: 72, [3, 'Phase 2 (Month 8+): Multi-Eidolon Expansion', 12, 617.9999999999999]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 73, [3, 'Critical Dependencies', 13, 72.0]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 74, [2, '16. CONTINUOUS IMPROVEMENT ', 13, 173.20000000000002]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 75, [3, 'How Eidolons Get Better', 13, 224.40000000000003]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 76, [3, 'Versioning Strategy', 13, 451.20000000000005]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 77, [2, '17. COMPETITIVE DIFFERENTIATION', 13, 540.4]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 78, [3, 'vs. Traditional Services', 13, 591.5999999999999]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 79, [3, 'vs. AI Tools', 14, 140.4]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 80, [3, 'Unique Value Proposition', 14, 319.2]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 81, [2, '18. RISK ASSESSMENT', 14, 438.4]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 82, [3, 'Product/Service Risks', 14, 489.59999999999997]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 83, [3, 'Operational Risks', 14, 674.4]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 84, [3, 'Technical Risks', 15, 182.4]
+   DEBUG: 2025-11-24 20:15:29,324:      pdf_renderer.py:   53: 85, [3, 'Market Risks', 15, 229.20000000000002]
+   DEBUG: 2025-11-24 20:15:29,325:      pdf_renderer.py:   53: 86, [2, '19. BUDGET ', 15, 390.40000000000003]
+   DEBUG: 2025-11-24 20:15:29,325:      pdf_renderer.py:   53: 87, [3, 'Cost Structure per Eidolon Client (Monthly)', 15, 441.6]
+   DEBUG: 2025-11-24 20:15:29,325:      pdf_renderer.py:   53: 88, [3, 'Break-Even Analysis', 15, 656.4]
+   DEBUG: 2025-11-24 20:15:29,325:      pdf_renderer.py:   53: 89, [3, 'Scaling Economics', 16, 92.4]
+   DEBUG: 2025-11-24 20:15:29,325:      pdf_renderer.py:   53: 90, [2, '20. OPEN QUESTIONS FOR CHRISTIAN/JANUS', 16, 181.60000000000002]
+   DEBUG: 2025-11-24 20:15:29,326:      pdf_renderer.py:   53: 91, [3, 'Strategic Decisions', 16, 232.80000000000004]
+   DEBUG: 2025-11-24 20:15:29,326:      pdf_renderer.py:   53: 92, [3, 'Operational Decisions', 16, 309.6]
+   DEBUG: 2025-11-24 20:15:29,326:      pdf_renderer.py:   53: 93, [3, 'Technical Decisions', 16, 386.4]
+   DEBUG: 2025-11-24 20:15:29,326:      pdf_renderer.py:   53: 94, [3, 'Business Decisions', 16, 463.19999999999993]
+   DEBUG: 2025-11-24 20:15:29,326:      pdf_renderer.py:   53: 95, [2, '21. NEXT STEPS', 16, 570.3999999999999]
+   DEBUG: 2025-11-24 20:15:29,326:      pdf_renderer.py:   53: 96, [2, '22. SYNTHESIS STATUS ', 17, 146.8]
+   DEBUG: 2025-11-24 20:15:29,326:      pdf_renderer.py:   53: 97, [2, '23. REFERENCES', 18, 206.8]
