@@ -1,0 +1,97 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: Lint Code
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'app/package-lock.json'
+      
+      - name: Install dependencies
+        working-directory: ./app
+        run: npm ci
+      
+      - name: Run ESLint
+        working-directory: ./app
+        run: npm run lint
+
+  type-check:
+    runs-on: ubuntu-latest
+    name: Type Check (TypeScript)
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'app/package-lock.json'
+      
+      - name: Install dependencies
+        working-directory: ./app
+        run: npm ci
+      
+      - name: Run TypeScript type check
+        working-directory: ./app
+        run: npx tsc --noEmit
+
+  build:
+    runs-on: ubuntu-latest
+    name: Build Application
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'app/package-lock.json'
+      
+      - name: Install dependencies
+        working-directory: ./app
+        run: npm ci
+      
+      - name: Build Next.js application
+        working-directory: ./app
+        run: npm run build
+        env:
+          NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}
+
+  deploy:
+    needs: [lint, type-check, build]
+    runs-on: ubuntu-latest
+    name: Deploy to Coolify
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Trigger Coolify Webhook
+        run: |
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -d '{"repository":"meet-mike","branch":"main","event":"push"}' \
+            "${{ secrets.COOLIFY_WEBHOOK_URL }}"
+        env:
+          COOLIFY_WEBHOOK_URL: ${{ secrets.COOLIFY_WEBHOOK_URL }}
+      
+      - name: Deployment notification
+        run: echo "✅ Deployment triggered to Coolify (meetmike.pro)"
