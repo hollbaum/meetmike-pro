@@ -47,7 +47,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-3">
               <a
-                href="mailto:hello@measai.com"
+                href="mailto:contact@meetmike.pro"
                 className="rounded-full bg-purple-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-purple-500/30 transition hover:-translate-y-0.5 hover:bg-purple-400"
               >
                 Book a Consultation
@@ -123,10 +123,10 @@ export default function Home() {
             <div>
               <p className="text-sm uppercase tracking-[0.3em] text-white/80">Let’s talk</p>
               <h3 className="text-2xl font-semibold text-white sm:text-3xl">Ready to ship real AI outcomes?</h3>
-              <p className="mt-2 text-base text-white/80">hello@measai.com · Response within 1 business day</p>
+              <p className="mt-2 text-base text-white/80">contact@meetmike.pro · Response within 1 business day</p>
             </div>
             <a
-              href="mailto:hello@measai.com"
+              href="mailto:contact@meetmike.pro"
               className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-lg shadow-white/30 transition hover:-translate-y-0.5"
             >
               Schedule a call
