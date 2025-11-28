@@ -37,7 +37,7 @@ export default function Home() {
         {/* Hero */}
         <header className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
           <div className="space-y-6 lg:max-w-2xl">
-            <p className="text-sm uppercase tracking-[0.3em] text-purple-200/80">MeasAI · AI Consulting</p>
+            <p className="text-sm uppercase tracking-[0.3em] text-purple-200/80">Meet Mike · AI Consulting</p>
             <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
               Unlock Your Business Potential with AI
             </h1>
@@ -61,7 +61,7 @@ export default function Home() {
             </div>
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-2xl shadow-purple-500/10 backdrop-blur lg:max-w-sm">
-            <h3 className="text-lg font-semibold text-white">Why teams pick MeasAI</h3>
+            <h3 className="text-lg font-semibold text-white">Why teams pick Meet Mike</h3>
             <ul className="mt-4 space-y-3 text-sm text-slate-200/80">
               <li>• End-to-end delivery: strategy → design → build → launch</li>
               <li>• Production guardrails: monitoring, governance, and human-in-the-loop</li>
@@ -96,7 +96,7 @@ export default function Home() {
         <section className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="space-y-4">
             <p className="text-sm uppercase tracking-[0.3em] text-purple-200/80">About</p>
-            <h2 className="text-3xl font-semibold text-white sm:text-4xl">MeasAI × Meet Mike</h2>
+            <h2 className="text-3xl font-semibold text-white sm:text-4xl">Meet Mike · AI Consulting</h2>
             <p className="text-base leading-relaxed text-slate-200/80">
               We are a hands-on AI consultancy delivering production-grade systems across strategy, automation,
               and custom development. We focus on measurable outcomes—customer experience, operational efficiency,
