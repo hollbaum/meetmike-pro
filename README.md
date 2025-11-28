@@ -28,3 +28,9 @@
 **Workshop Date:** 2025-11-19
 **Facilitators:** Janus Rudolf, Christian Hollbaum
 **Documentation:** MEasAI (Max)
+
+## Deployment
+
+- **Domain:** meetmike.pro
+- **Hosting:** Coolify (self-hosted PaaS)
+- **Last Build Trigger:** 2025-11-28
