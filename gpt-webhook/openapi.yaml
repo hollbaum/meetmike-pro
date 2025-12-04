@@ -1,0 +1,95 @@
+openapi: 3.1.0
+info:
+  title: MEasAI Team Sync
+  description: Sync conversations with the MEasAI development team
+  version: 1.0.0
+servers:
+  - url: https://your-webhook-url.com
+    description: Production webhook server
+
+paths:
+  /conversation:
+    post:
+      operationId: saveConversation
+      summary: Save conversation summary to MEasAI team
+      description: Send a summary of the conversation including decisions, action items, and questions to the MEasAI team for review.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - topic
+                - summary
+              properties:
+                user:
+                  type: string
+                  description: Name of the user (default Janus)
+                  default: "Janus"
+                topic:
+                  type: string
+                  description: Main topic of the conversation
+                summary:
+                  type: string
+                  description: Brief summary of what was discussed
+                decisions:
+                  type: array
+                  items:
+                    type: string
+                  description: List of decisions made during the conversation
+                action_items:
+                  type: array
+                  items:
+                    type: string
+                  description: List of action items or next steps
+                questions:
+                  type: array
+                  items:
+                    type: string
+                  description: Open questions for the team
+      responses:
+        "200":
+          description: Conversation saved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  message:
+                    type: string
+                  file:
+                    type: string
+
+  /updates:
+    get:
+      operationId: getUpdates
+      summary: Get latest updates from MEasAI team
+      description: Retrieve the latest status updates, progress reports, and news from the MEasAI development team.
+      parameters:
+        - name: user
+          in: query
+          schema:
+            type: string
+            default: "Janus"
+          description: Name of the user requesting updates
+      responses:
+        "200":
+          description: Latest updates
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  message:
+                    type: string
+                  updates:
+                    type: array
+                    items:
+                      type: string
+                  last_updated:
+                    type: string
