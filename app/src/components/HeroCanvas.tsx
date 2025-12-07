@@ -5,6 +5,7 @@ import { Typewriter } from './Typewriter';
 
 export function HeroCanvas() {
   const inputRef = useRef<HTMLInputElement>(null);
+  const [firstLineComplete, setFirstLineComplete] = useState(false);
   const [typewriterComplete, setTypewriterComplete] = useState(false);
   const [userMessage, setUserMessage] = useState('');
   const [mikeResponse, setMikeResponse] = useState('');
@@ -29,20 +30,23 @@ export function HeroCanvas() {
 
   return (
     <div className="relative min-h-screen w-full bg-white flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
-      {/* Typewriter intro */}
+      {/* Typewriter intro - sequential animation */}
       <div className="w-full max-w-2xl text-center mb-8 h-32 flex flex-col justify-center">
         <div className="space-y-4">
           <Typewriter
             text="Hi. I'm Mike."
             speed={100}
+            onComplete={() => setFirstLineComplete(true)}
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900"
           />
-          <Typewriter
-            text="I help teams build ambitious projects."
-            speed={70}
-            onComplete={() => setTypewriterComplete(true)}
-            className="text-lg sm:text-xl text-slate-600 block mt-4"
-          />
+          {firstLineComplete && (
+            <Typewriter
+              text="I help teams build ambitious projects."
+              speed={70}
+              onComplete={() => setTypewriterComplete(true)}
+              className="text-lg sm:text-xl text-slate-600 block mt-4"
+            />
+          )}
         </div>
       </div>
 
