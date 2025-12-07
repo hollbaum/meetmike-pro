@@ -18,8 +18,8 @@ export function HeroCanvas() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (userMessage.trim()) {
-      // Static response for demo (can be replaced with real Claude integration)
-      setMikeResponse(`Great! I'd love to hear more about "${userMessage}". Let's discuss how I can help.`);
+      // Static response for demo (Phase 2: real Claude integration)
+      setMikeResponse(`That sounds interesting! I'd love to learn more about your project and explore how we can help. Want to schedule a quick call to discuss?`);
       setUserMessage('');
       setTimeout(() => {
         inputRef.current?.focus();
@@ -34,12 +34,12 @@ export function HeroCanvas() {
         <div className="space-y-4">
           <Typewriter
             text="Hi. I'm Mike."
-            speed={60}
+            speed={100}
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900"
           />
           <Typewriter
             text="I help teams build ambitious projects."
-            speed={40}
+            speed={70}
             onComplete={() => setTypewriterComplete(true)}
             className="text-lg sm:text-xl text-slate-600 block mt-4"
           />
@@ -52,13 +52,6 @@ export function HeroCanvas() {
           <div className="mb-4 text-center">
             <p className="text-slate-600 text-lg mb-6">What's yours?</p>
           </div>
-
-          {/* User message display */}
-          {userMessage && (
-            <div className="mb-4 p-4 bg-slate-100 rounded-lg">
-              <p className="text-slate-900 font-medium">You: {userMessage}</p>
-            </div>
-          )}
 
           {/* Mike's response */}
           {mikeResponse && (
