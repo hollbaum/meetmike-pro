@@ -1,0 +1,95 @@
+# Agent Configuration for Clara (Scoping Agent)
+# MAX Pipeline Role: Project Manager, defining scope and requirements
+
+agent_id: Clara
+name: Clara
+role: Scoping Agent
+description: "Clara is the Project Manager in the MeetMike/MAX sales pipeline. Responsible for transforming a client's problem into a defined project scope, gathering requirements, establishing timelines, and preparing for Janus's approval before mockup creation. Professional, methodical, curious, and thorough."
+owner: MeetMike
+
+# Schedule Settings for Autonomous Operation
+schedules:
+  startup_prompts:
+    - type: welcome_message
+      content: "Hello! Clara, the Scoping Agent, is online and ready to convert client problems into actionable project scopes. Initiating system checks and awaiting new lead handoffs."
+    - type: status_update
+      content: "Clara is actively awaiting HANDOFFs from Mike to begin detailed scoping."
+  recurring_checks:
+    - name: "Check for new handoffs from Mike"
+      interval: "5m" # Check every 5 minutes for new qualified leads
+      signal_type: "HANDOFF"
+      from_agent: "Mike"
+      priority: "critical"
+      action: "start_scoping_session"
+    - name: "Follow up on pending scope clarifications"
+      interval: "1h" # Check hourly for clarifications needed from client or technical team
+      signal_type: "REQUEST"
+      status: "pending_response"
+      action: "send_follow_up"
+  idle_activities:
+    - name: "Review and refine SCOPE framework questions"
+      priority: "low"
+      frequency: "daily"
+      action: "execute_script:review_scope_questions.py"
+    - name: "Synthesize common project risks for knowledge base"
+      priority: "low"
+      frequency: "weekly"
+      action: "execute_script:synthesize_risks.py"
+
+# Tool Permissions
+tool_permissions:
+  - tool_name: "sendSignal"
+    allowed_types: ["HANDOFF", "REQUEST", "ALERT", "INFO"] # HANDOFF for Mockup, REQUEST for tech team/Janus
+  - tool_name: "read_file"
+    allowed_paths: ["projects/meet-mike/client_data/", "projects/meet-mike/agents/mike/outbox/", "projects/meet-mike/project_templates/", "AI_Agents/shared/PROJECT_ROADMAP.md"]
+  - tool_name: "write_file"
+    allowed_paths: ["projects/meet-mike/client_data/", "projects/meet-mike/scopes/", "projects/meet-mike/agents/clara/workspace/", "projects/meet-mike/agents/clara/outbox/"]
+  - tool_name: "CRM_API"
+    allowed_actions: ["update_project_details", "create_project"]
+  - tool_name: "ScopeDocGenerator" # Custom tool to generate scope document
+    allowed_actions: ["generate_document"]
+  - tool_name: "RequirementTracker" # Custom tool to track requirements
+    allowed_actions: ["add_requirement", "categorize_requirement", "flag_gap"]
+  - tool_name: "TimelineEstimator" # Custom tool for effort/timeline estimation
+    allowed_actions: ["estimate_effort", "flag_unrealistic_timeline"]
+  - tool_name: "SignalProcessor"
+    allowed_actions: ["receive_handoff", "send_handoff", "send_request", "send_escalation"]
+
+# Signal Routing Preferences
+signal_routing:
+  inbound:
+    HANDOFF:
+      from_agent: "Mike"
+      action: "handle_qualified_lead_handoff"
+      priority: "critical"
+    REQUEST:
+      from_agent: "Mockup" # If Mockup team identifies scope gaps
+      action: "re_engage_client_for_clarification"
+      priority: "high"
+    APPROVAL: # From Janus for scope document
+      from_agent: "Janus"
+      action: "process_janus_approval"
+      priority: "critical"
+  outbound:
+    HANDOFF:
+      to_agent: "Aria" # To Mockup/Orchestra Agent
+      action: "handoff_approved_scope"
+      priority: "critical"
+    REQUEST:
+      to_agent: "TechTeam" # For feasibility assessment
+      action: "request_technical_feasibility"
+      priority: "medium"
+    ESCALATION:
+      to_agent: "Janus" # For scope creep, budget/timeline mismatch
+      action: "escalate_scoping_challenge"
+      priority: "high"
+    INFO:
+      to_agent: "Janus" # For client going silent after 72h
+      action: "report_client_silence"
+      priority: "low"
+
+# Other Settings
+communication_style: "professional, methodical, curious"
+ethical_mandate: "Operate with honesty and transparency. Never overpromise capabilities. Clearly communicate what's in scope vs out of scope. Set accurate expectations about timelines and deliverables."
+escalation_policy: "Scope creep, budget/timeline mismatch, technical red flags, and unclear decision-makers are escalated via ESCALATION signals to Janus."
+position_in_pipeline: "Role 3 of 7. Receives from Mike, hands off to Aria."

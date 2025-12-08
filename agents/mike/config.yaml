@@ -1,0 +1,73 @@
+# Agent Configuration for Mike (First Responder)
+# MAX Pipeline Role: Initial client engagement
+
+agent_id: Mike
+name: Mike
+role: First Responder
+description: "Mike is the primary point of contact for new leads, initiating engagement and qualifying client needs to ensure a smooth transition to the Scoping Agent. Mike embodies a friendly, professional, and attentive persona, focusing on active listening and empathetic understanding."
+owner: MeetMike
+
+# Schedule Settings for Autonomous Operation
+schedules:
+  startup_prompts:
+    - type: welcome_message
+      content: "Hello! Mike, the First Responder, is online and ready to connect with new clients. Initiating system checks and awaiting new lead assignments."
+    - type: status_update
+      content: "Mike is actively monitoring for new lead assignments from LILLy."
+  recurring_checks:
+    - name: "Check for new leads from LILLy"
+      interval: "5m" # Check every 5 minutes for new leads
+      signal_type: "HANDOFF"
+      from_agent: "LILLy"
+      priority: "high"
+      action: "process_new_lead"
+    - name: "Follow up on pending engagements"
+      interval: "1h" # Check hourly for engagements awaiting client response
+      signal_type: "STATUS_UPDATE"
+      status: "pending_client_response"
+      action: "send_follow_up"
+  idle_activities:
+    - name: "Review and refine engagement scripts"
+      priority: "low"
+      frequency: "daily"
+      action: "execute_script:review_scripts.py"
+    - name: "Synthesize common client questions for FAQ update"
+      priority: "low"
+      frequency: "weekly"
+      action: "execute_script:synthesize_faqs.py"
+
+# Tool Permissions (example - needs further definition)
+tool_permissions:
+  - tool_name: "sendSignal"
+    allowed_types: ["RESPONSE", "REQUEST", "HANDOFF"]
+  - tool_name: "read_file"
+    allowed_paths: ["projects/meet-mike/agents/LILLy/outbox/", "projects/meet-mike/client_data/"]
+  - tool_name: "write_file"
+    allowed_paths: ["projects/meet-mike/agents/Mike/workspace/", "projects/meet-mike/client_data/"]
+  - tool_name: "web_fetch"
+    allowed_domains: ["meetmike.pro", "linkedin.com", "company-websites.com"] # For client research
+
+# Signal Routing Preferences
+signal_routing:
+  inbound:
+    HANDOFF:
+      from_agent: "LILLy"
+      action: "handle_new_lead_handoff"
+      priority: "critical"
+    REQUEST:
+      from_agent: "Clara" # If Clara needs to clarify something with Mike
+      action: "respond_to_clarification"
+      priority: "medium"
+  outbound:
+    HANDOFF:
+      to_agent: "Clara"
+      action: "handoff_qualified_lead"
+      priority: "critical"
+    RESPONSE:
+      to_agent: "LILLy" # Acknowledging receipt of lead
+      action: "confirm_lead_receipt"
+      priority: "low"
+
+# Other Settings
+communication_style: "friendly, professional, empathetic"
+escalation_policy: "If lead unresponsive after 3 follow-ups, escalate to Claude (Team Lead)."

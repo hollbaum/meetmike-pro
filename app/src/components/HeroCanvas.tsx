@@ -33,19 +33,21 @@ export function HeroCanvas() {
       {/* Typewriter intro - sequential animation */}
       <div className="w-full max-w-2xl text-center mb-8 h-32 flex flex-col justify-center">
         <div className="space-y-4">
-          <Typewriter
-            text="Hi. I'm Mike."
-            speed={100}
-            onComplete={() => setFirstLineComplete(true)}
-            className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900"
-          />
-          {firstLineComplete && (
+          <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900">
             <Typewriter
-              text="I help teams build ambitious projects."
-              speed={70}
-              onComplete={() => setTypewriterComplete(true)}
-              className="text-lg sm:text-xl text-slate-600 block mt-4"
+              text="Hi. I'm Mike."
+              speed={100}
+              onComplete={() => setFirstLineComplete(true)}
             />
+          </div>
+          {firstLineComplete && (
+            <div className="text-lg sm:text-xl text-slate-600 block mt-4">
+              <Typewriter
+                text="I help teams build ambitious projects."
+                speed={70}
+                onComplete={() => setTypewriterComplete(true)}
+              />
+            </div>
           )}
         </div>
       </div>
