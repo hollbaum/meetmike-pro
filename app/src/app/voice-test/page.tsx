@@ -2,10 +2,7 @@
 
 import { useState, useRef, useCallback } from 'react';
 
-const defaultWsUrl =
-  typeof window !== 'undefined' && window.location.protocol === 'https:'
-    ? 'wss://136.243.148.151:18000/ws' // adjust if proxied
-    : 'ws://136.243.148.151:18000/ws';
+const defaultWsUrl = 'wss://voice.meetmike.pro/ws';
 
 export default function VoiceTestPage() {
   const [status, setStatus] = useState('Disconnected');
