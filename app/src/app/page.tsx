@@ -3,28 +3,28 @@ import { MiniChat } from '@/components/MiniChat';
 
 const services = [
   {
-    title: "AI Strategy",
-    desc: "Identify high-value use cases, roadmap impact, and align AI with your business goals.",
+    title: "Mixed Intelligence Strategy",
+    desc: "Identify where Human × AI creates the biggest multiplier effect for your business.",
   },
   {
     title: "Solution Design",
-    desc: "Architecture, data flows, and guardrails for resilient AI systems you can trust.",
+    desc: "Architecture, data flows, and guardrails that keep humans in control.",
   },
   {
-    title: "Automation",
-    desc: "Streamline operations with smart workflows, agents, and human-in-the-loop controls.",
+    title: "Workflow Automation",
+    desc: "Streamline operations with smart workflows that amplify your team's capability.",
   },
   {
     title: "Custom Development",
     desc: "Build tailored applications, integrations, and APIs that fit your stack.",
   },
   {
-    title: "AI Ethics & Governance",
+    title: "Ethics & Governance",
     desc: "Risk assessments, policies, and monitoring to keep AI safe, fair, and compliant.",
   },
   {
     title: "Training & Enablement",
-    desc: "Upskill teams with playbooks, workshops, and best practices for sustainable adoption.",
+    desc: "Upskill your team to work effectively with AI—playbooks, workshops, and best practices.",
   },
 ];
 
@@ -48,13 +48,13 @@ export default function Home() {
           {/* Hero */}
           <header className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
             <div className="space-y-6 lg:max-w-2xl">
-              <p className="text-sm uppercase tracking-[0.3em] text-purple-200/80">Meet Mike · AI Consulting</p>
+              <p className="text-sm uppercase tracking-[0.3em] text-purple-200/80">Meet Mike · Mixed Intelligence</p>
               <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
-                Unlock Your Business Potential with AI
+                Human × AI: Multiply Your Impact
               </h1>
               <p className="text-lg leading-relaxed text-slate-200/80 sm:text-xl">
-                We design, build, and deploy AI systems that automate work, surface insights, and keep humans in control.
-                From strategy to delivery, we make AI practical, safe, and measurable.
+                Mixed Intelligence combines human expertise with AI capability to deliver outcomes neither can achieve alone.
+                We design, build, and deploy solutions that amplify your team—not replace them.
               </p>
               <div className="flex flex-wrap gap-3">
                 <a
@@ -74,9 +74,9 @@ export default function Home() {
             <div className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-2xl shadow-purple-500/10 backdrop-blur lg:max-w-sm">
               <h3 className="text-lg font-semibold text-white">Why teams pick Meet Mike</h3>
               <ul className="mt-4 space-y-3 text-sm text-slate-200/80">
+                <li>• Human × AI: amplify your team, don&apos;t replace them</li>
                 <li>• End-to-end delivery: strategy → design → build → launch</li>
-                <li>• Production guardrails: monitoring, governance, and human-in-the-loop</li>
-                <li>• Fast iterations with transparent metrics and clear ROI</li>
+                <li>• Production guardrails with humans in control</li>
               </ul>
             </div>
           </header>
@@ -87,7 +87,7 @@ export default function Home() {
               <p className="text-sm uppercase tracking-[0.3em] text-purple-200/80">Services</p>
               <h2 className="mt-3 text-3xl font-semibold text-white sm:text-4xl">From idea to production</h2>
               <p className="mt-3 max-w-3xl text-base text-slate-200/80">
-                We help you prioritize the right use cases, architect robust solutions, and deliver them safely into production.
+                We help you find where Human × AI creates the biggest impact, architect robust solutions, and deliver them into production with humans in control.
               </p>
             </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -107,14 +107,14 @@ export default function Home() {
           <section className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="space-y-4">
               <p className="text-sm uppercase tracking-[0.3em] text-purple-200/80">About</p>
-              <h2 className="text-3xl font-semibold text-white sm:text-4xl">Meet Mike · AI Consulting</h2>
+              <h2 className="text-3xl font-semibold text-white sm:text-4xl">Meet Mike · Mixed Intelligence</h2>
               <p className="text-base leading-relaxed text-slate-200/80">
-                We are a hands-on AI consultancy delivering production-grade systems across strategy, automation,
-                and custom development. We focus on measurable outcomes—customer experience, operational efficiency,
-                and revenue growth—while keeping governance, ethics, and security at the core.
+                Mixed Intelligence is Human Intelligence × AI—the multiplier effect that transforms how teams work.
+                We deliver production-grade solutions across strategy, automation, and custom development,
+                focusing on outcomes that amplify human capability: better decisions, faster execution, and sustainable growth.
               </p>
               <p className="text-base leading-relaxed text-slate-200/80">
-                You get a single team that can think, build, and ship: from exploration to launch and beyond.
+                One team that thinks, builds, and ships alongside you—human expertise and AI capability working as one.
               </p>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-cyan-400/10">
@@ -133,7 +133,7 @@ export default function Home() {
             <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
               <div>
                 <p className="text-sm uppercase tracking-[0.3em] text-white/80">Let&apos;s talk</p>
-                <h3 className="text-2xl font-semibold text-white sm:text-3xl">Ready to ship real AI outcomes?</h3>
+                <h3 className="text-2xl font-semibold text-white sm:text-3xl">Ready to multiply your team&apos;s impact?</h3>
                 <p className="mt-2 text-base text-white/80">contact@meetmike.pro · Response within 1 business day</p>
               </div>
               <a
