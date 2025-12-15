@@ -45,7 +45,7 @@ export function MiniChat() {
             <div className="flex-1 overflow-y-auto p-4 space-y-3">
               <div className="bg-slate-100 rounded-lg p-3 text-sm text-slate-700">
                 <p className="font-semibold text-purple-600">Mike:</p>
-                <p>Take your time exploring. I'm here whenever you're ready to talk.</p>
+                <p>Take your time exploring. I&apos;m here whenever you&apos;re ready to talk.</p>
               </div>
             </div>
 

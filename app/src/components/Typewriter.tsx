@@ -20,8 +20,12 @@ export function Typewriter({ text, speed = 50, onComplete, className = '' }: Typ
       }, speed);
       return () => clearTimeout(timer);
     } else if (displayedText.length === text.length && !isComplete) {
-      setIsComplete(true);
-      onComplete?.();
+      // Defer state update to avoid synchronous setState in effect
+      const timer = setTimeout(() => {
+        setIsComplete(true);
+        onComplete?.();
+      }, 0);
+      return () => clearTimeout(timer);
     }
   }, [displayedText, text, speed, onComplete, isComplete]);
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useCallback, useMemo } from 'react';
+import { useState, useRef, useCallback } from 'react';
 
 const defaultWsUrl =
   typeof window !== 'undefined' && window.location.protocol === 'https:'

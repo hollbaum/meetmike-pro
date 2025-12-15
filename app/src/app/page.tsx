@@ -132,7 +132,7 @@ export default function Home() {
           <section className="rounded-3xl border border-white/10 bg-gradient-to-r from-purple-500/30 to-cyan-500/30 p-8 shadow-xl shadow-purple-500/20">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
               <div>
-                <p className="text-sm uppercase tracking-[0.3em] text-white/80">Let's talk</p>
+                <p className="text-sm uppercase tracking-[0.3em] text-white/80">Let&apos;s talk</p>
                 <h3 className="text-2xl font-semibold text-white sm:text-3xl">Ready to ship real AI outcomes?</h3>
                 <p className="mt-2 text-base text-white/80">contact@meetmike.pro · Response within 1 business day</p>
               </div>

@@ -56,7 +56,7 @@ export function HeroCanvas() {
       {typewriterComplete && (
         <div className="w-full max-w-2xl animate-fade-in">
           <div className="mb-4 text-center">
-            <p className="text-slate-600 text-lg mb-6">What's yours?</p>
+            <p className="text-slate-600 text-lg mb-6">What&apos;s yours?</p>
           </div>
 
           {/* Mike's response */}
