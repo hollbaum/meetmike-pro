@@ -1,8 +1,11 @@
 'use client';
 
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useMemo } from 'react';
 
-const WS_URL = 'ws://136.243.148.151:18000/ws';
+const defaultWsUrl =
+  typeof window !== 'undefined' && window.location.protocol === 'https:'
+    ? 'wss://136.243.148.151:18000/ws' // adjust if proxied
+    : 'ws://136.243.148.151:18000/ws';
 
 export default function VoiceTestPage() {
   const [status, setStatus] = useState('Disconnected');
@@ -10,6 +13,8 @@ export default function VoiceTestPage() {
   const [reply, setReply] = useState('');
   const [textInput, setTextInput] = useState('');
   const [isRecording, setIsRecording] = useState(false);
+  const [events, setEvents] = useState('Idle');
+  const [wsUrl, setWsUrl] = useState(defaultWsUrl);
   const wsRef = useRef<WebSocket | null>(null);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<Blob[]>([]);
@@ -17,7 +22,7 @@ export default function VoiceTestPage() {
   const connect = useCallback(() => {
     if (wsRef.current?.readyState === WebSocket.OPEN) return;
 
-    const ws = new WebSocket(WS_URL);
+    const ws = new WebSocket(wsUrl);
     wsRef.current = ws;
 
     ws.onopen = () => setStatus('Connected');
@@ -25,16 +30,26 @@ export default function VoiceTestPage() {
     ws.onerror = () => setStatus('Error');
 
     ws.onmessage = (event) => {
-      try {
-        const data = JSON.parse(event.data);
-        if (data.transcript) setTranscript(data.transcript);
-        if (data.reply) setReply(data.reply);
-        if (data.echo) setReply(`Echo: ${data.echo}`);
-      } catch {
-        setReply(event.data);
+      if (typeof event.data === 'string') {
+        try {
+          const data = JSON.parse(event.data);
+          if (data.transcript) setTranscript(data.transcript);
+          if (data.reply) setReply(data.reply);
+          if (data.echo) setReply(`Echo: ${data.echo}`);
+          setEvents(`Text reply: ${event.data}`);
+        } catch {
+          setReply(event.data);
+          setEvents(`Text reply: ${event.data}`);
+        }
+      } else if (event.data instanceof Blob) {
+        const url = URL.createObjectURL(event.data);
+        setReply('Audio reply');
+        setEvents(`Audio reply (${event.data.size} bytes)`);
+        const audio = new Audio(url);
+        audio.play().catch(() => {});
       }
     };
-  }, []);
+  }, [wsUrl]);
 
   const disconnect = useCallback(() => {
     wsRef.current?.close();
@@ -55,15 +70,12 @@ export default function VoiceTestPage() {
 
       mediaRecorder.onstop = async () => {
         const blob = new Blob(chunksRef.current, { type: 'audio/webm' });
-        const reader = new FileReader();
-        reader.onloadend = () => {
-          const base64 = (reader.result as string).split(',')[1];
-          if (wsRef.current?.readyState === WebSocket.OPEN) {
-            wsRef.current.send(JSON.stringify({ audio: base64 }));
-          }
-        };
-        reader.readAsDataURL(blob);
-        stream.getTracks().forEach(track => track.stop());
+        const arrayBuffer = await blob.arrayBuffer();
+        if (wsRef.current?.readyState === WebSocket.OPEN) {
+          wsRef.current.send(arrayBuffer);
+          setEvents(`Sent audio (${arrayBuffer.byteLength} bytes)`);
+        }
+        stream.getTracks().forEach((track) => track.stop());
       };
 
       mediaRecorder.start();
@@ -81,8 +93,15 @@ export default function VoiceTestPage() {
 
   const sendText = useCallback(() => {
     if (wsRef.current?.readyState === WebSocket.OPEN && textInput.trim()) {
+      const t0 = performance.now();
       wsRef.current.send(JSON.stringify({ text: textInput }));
       setTextInput('');
+      const listener = (event: MessageEvent) => {
+        const dt = performance.now() - t0;
+        setEvents(`Echo reply (${dt.toFixed(1)} ms): ${event.data}`);
+        wsRef.current?.removeEventListener('message', listener);
+      };
+      wsRef.current.addEventListener('message', listener);
     }
   }, [textInput]);
 
@@ -93,6 +112,16 @@ export default function VoiceTestPage() {
       <div style={{ marginBottom: '1rem' }}>
         <strong>Status:</strong>{' '}
         <span style={{ color: status === 'Connected' ? 'green' : 'red' }}>{status}</span>
+      </div>
+
+      <div style={{ marginBottom: '1rem' }}>
+        <label>WebSocket URL</label>
+        <input
+          type="text"
+          value={wsUrl}
+          onChange={(e) => setWsUrl(e.target.value)}
+          style={{ width: '100%', padding: '0.5rem' }}
+        />
       </div>
 
       <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem' }}>
@@ -148,8 +177,15 @@ export default function VoiceTestPage() {
         </div>
       </div>
 
+      <div style={{ marginTop: '1rem' }}>
+        <h3>Events</h3>
+        <div style={{ padding: '1rem', backgroundColor: '#eef2ff', borderRadius: '4px', minHeight: '40px' }}>
+          {events}
+        </div>
+      </div>
+
       <p style={{ marginTop: '2rem', fontSize: '0.8rem', color: '#666' }}>
-        WebSocket: {WS_URL}
+        Default WebSocket: {defaultWsUrl}
       </p>
     </div>
   );
