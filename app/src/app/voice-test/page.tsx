@@ -125,8 +125,30 @@ export default function VoiceTestPage() {
       </div>
 
       <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem' }}>
-        <button onClick={connect} disabled={status === 'Connected'}>Connect</button>
-        <button onClick={disconnect} disabled={status !== 'Connected'}>Disconnect</button>
+        <button
+          onClick={connect}
+          disabled={status === 'Connected'}
+          style={{
+            padding: '0.5rem 1rem',
+            backgroundColor: status === 'Connected' ? '#ccc' : '#4CAF50',
+            color: 'white',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: status === 'Connected' ? 'not-allowed' : 'pointer'
+          }}
+        >Connect</button>
+        <button
+          onClick={disconnect}
+          disabled={status !== 'Connected'}
+          style={{
+            padding: '0.5rem 1rem',
+            backgroundColor: status !== 'Connected' ? '#ccc' : '#f44336',
+            color: 'white',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: status !== 'Connected' ? 'not-allowed' : 'pointer'
+          }}
+        >Disconnect</button>
       </div>
 
       <div style={{ marginBottom: '1.5rem' }}>
