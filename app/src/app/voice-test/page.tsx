@@ -27,23 +27,30 @@ export default function VoiceTestPage() {
     ws.onerror = () => setStatus('Error');
 
     ws.onmessage = (event) => {
+      console.log('WS message received:', typeof event.data, event.data);
       if (typeof event.data === 'string') {
         try {
           const data = JSON.parse(event.data);
+          console.log('Parsed JSON:', data);
           if (data.transcript) setTranscript(data.transcript);
           if (data.reply) setReply(data.reply);
           if (data.echo) setReply(`Echo: ${data.echo}`);
           setEvents(`Text reply: ${event.data}`);
-        } catch {
+        } catch (e) {
+          console.log('JSON parse error:', e);
           setReply(event.data);
           setEvents(`Text reply: ${event.data}`);
         }
       } else if (event.data instanceof Blob) {
+        console.log('Blob received:', event.data.size, 'bytes');
         const url = URL.createObjectURL(event.data);
         setReply('Audio reply');
         setEvents(`Audio reply (${event.data.size} bytes)`);
         const audio = new Audio(url);
-        audio.play().catch(() => {});
+        audio.play().catch((err) => console.log('Audio play error:', err));
+      } else {
+        console.log('Unknown message type:', event.data);
+        setEvents(`Unknown: ${typeof event.data}`);
       }
     };
   }, [wsUrl]);
