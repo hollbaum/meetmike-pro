@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 
 const defaultWsUrl = 'wss://voice.meetmike.pro/ws';
 
@@ -10,15 +10,48 @@ export default function VoiceTestPage() {
   const [reply, setReply] = useState('');
   const [textInput, setTextInput] = useState('');
   const [isRecording, setIsRecording] = useState(false);
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [processingTime, setProcessingTime] = useState(0);
   const [events, setEvents] = useState('Idle');
   const [wsUrl, setWsUrl] = useState(defaultWsUrl);
+  const [connectingTime, setConnectingTime] = useState(0);
   const wsRef = useRef<WebSocket | null>(null);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<Blob[]>([]);
 
+  // Track elapsed time while connecting
+  useEffect(() => {
+    let interval: NodeJS.Timeout | null = null;
+    if (status === 'Connecting') {
+      setConnectingTime(0);
+      interval = setInterval(() => {
+        setConnectingTime((prev) => prev + 1);
+      }, 1000);
+    }
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [status]);
+
+  // Track elapsed time while processing audio
+  useEffect(() => {
+    let interval: NodeJS.Timeout | null = null;
+    if (isProcessing) {
+      setProcessingTime(0);
+      interval = setInterval(() => {
+        setProcessingTime((prev) => prev + 1);
+      }, 1000);
+    }
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [isProcessing]);
+
   const connect = useCallback(() => {
     if (wsRef.current?.readyState === WebSocket.OPEN) return;
+    if (status === 'Connecting') return;
 
+    setStatus('Connecting');
     const ws = new WebSocket(wsUrl);
     wsRef.current = ws;
 
@@ -28,6 +61,7 @@ export default function VoiceTestPage() {
 
     ws.onmessage = (event) => {
       console.log('WS message received:', typeof event.data, event.data);
+      setIsProcessing(false); // Stop processing indicator on any response
       if (typeof event.data === 'string') {
         try {
           const data = JSON.parse(event.data);
@@ -44,8 +78,8 @@ export default function VoiceTestPage() {
       } else if (event.data instanceof Blob) {
         console.log('Blob received:', event.data.size, 'bytes');
         const url = URL.createObjectURL(event.data);
-        setReply('Audio reply');
-        setEvents(`Audio reply (${event.data.size} bytes)`);
+        // Don't overwrite reply/transcript - just play the TTS audio
+        setEvents((prev) => prev + ` | Audio: ${event.data.size} bytes`);
         const audio = new Audio(url);
         audio.play().catch((err) => console.log('Audio play error:', err));
       } else {
@@ -53,7 +87,7 @@ export default function VoiceTestPage() {
         setEvents(`Unknown: ${typeof event.data}`);
       }
     };
-  }, [wsUrl]);
+  }, [wsUrl, status]);
 
   const disconnect = useCallback(() => {
     wsRef.current?.close();
@@ -76,8 +110,9 @@ export default function VoiceTestPage() {
         const blob = new Blob(chunksRef.current, { type: 'audio/webm' });
         const arrayBuffer = await blob.arrayBuffer();
         if (wsRef.current?.readyState === WebSocket.OPEN) {
+          setIsProcessing(true);
           wsRef.current.send(arrayBuffer);
-          setEvents(`Sent audio (${arrayBuffer.byteLength} bytes)`);
+          setEvents(`Sent audio (${arrayBuffer.byteLength} bytes) - Processing...`);
         }
         stream.getTracks().forEach((track) => track.stop());
       };
@@ -115,7 +150,9 @@ export default function VoiceTestPage() {
 
       <div style={{ marginBottom: '1rem' }}>
         <strong>Status:</strong>{' '}
-        <span style={{ color: status === 'Connected' ? 'green' : 'red' }}>{status}</span>
+        <span style={{ color: status === 'Connected' ? 'green' : status === 'Connecting' ? 'orange' : 'red' }}>
+          {status === 'Connecting' ? `Connecting... (${connectingTime}s)` : status}
+        </span>
       </div>
 
       <div style={{ marginBottom: '1rem' }}>
@@ -131,16 +168,16 @@ export default function VoiceTestPage() {
       <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem' }}>
         <button
           onClick={connect}
-          disabled={status === 'Connected'}
+          disabled={status === 'Connected' || status === 'Connecting'}
           style={{
             padding: '0.5rem 1rem',
-            backgroundColor: status === 'Connected' ? '#ccc' : '#4CAF50',
+            backgroundColor: status === 'Connected' || status === 'Connecting' ? '#ccc' : '#4CAF50',
             color: 'white',
             border: 'none',
             borderRadius: '4px',
-            cursor: status === 'Connected' ? 'not-allowed' : 'pointer'
+            cursor: status === 'Connected' || status === 'Connecting' ? 'not-allowed' : 'pointer'
           }}
-        >Connect</button>
+        >{status === 'Connecting' ? `Connecting... (${connectingTime}s)` : 'Connect'}</button>
         <button
           onClick={disconnect}
           disabled={status !== 'Connected'}
@@ -159,17 +196,17 @@ export default function VoiceTestPage() {
         <h3>Voice Input</h3>
         <button
           onClick={isRecording ? stopRecording : startRecording}
-          disabled={status !== 'Connected'}
+          disabled={status !== 'Connected' || isProcessing}
           style={{
             padding: '1rem 2rem',
-            backgroundColor: isRecording ? '#ff4444' : '#4CAF50',
+            backgroundColor: isProcessing ? '#ff9800' : (isRecording ? '#ff4444' : '#4CAF50'),
             color: 'white',
             border: 'none',
             borderRadius: '8px',
-            cursor: status === 'Connected' ? 'pointer' : 'not-allowed'
+            cursor: (status === 'Connected' && !isProcessing) ? 'pointer' : 'not-allowed'
           }}
         >
-          {isRecording ? 'Stop Recording' : 'Start Recording'}
+          {isProcessing ? `Processing... (${processingTime}s)` : (isRecording ? 'Stop Recording' : 'Start Recording')}
         </button>
       </div>
 
@@ -191,21 +228,21 @@ export default function VoiceTestPage() {
 
       <div style={{ marginBottom: '1rem' }}>
         <h3>Transcript</h3>
-        <div style={{ padding: '1rem', backgroundColor: '#f0f0f0', borderRadius: '4px', minHeight: '50px' }}>
-          {transcript || '(waiting for voice input...)'}
+        <div style={{ padding: '1rem', backgroundColor: '#f0f0f0', borderRadius: '4px', minHeight: '50px', color: '#333' }}>
+          {transcript || <span style={{ color: '#888' }}>(waiting for voice input...)</span>}
         </div>
       </div>
 
       <div>
         <h3>Reply</h3>
-        <div style={{ padding: '1rem', backgroundColor: '#e8f4e8', borderRadius: '4px', minHeight: '50px' }}>
-          {reply || '(waiting for response...)'}
+        <div style={{ padding: '1rem', backgroundColor: '#e8f4e8', borderRadius: '4px', minHeight: '50px', color: '#333' }}>
+          {reply || <span style={{ color: '#888' }}>(waiting for response...)</span>}
         </div>
       </div>
 
       <div style={{ marginTop: '1rem' }}>
         <h3>Events</h3>
-        <div style={{ padding: '1rem', backgroundColor: '#eef2ff', borderRadius: '4px', minHeight: '40px' }}>
+        <div style={{ padding: '1rem', backgroundColor: '#eef2ff', borderRadius: '4px', minHeight: '40px', color: '#333' }}>
           {events}
         </div>
       </div>
